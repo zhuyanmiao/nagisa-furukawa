@@ -1,0 +1,2739 @@
+{
+  "status": "technical_pass_requires_art_and_runtime_review",
+  "output_dir": "nagisa-furukawa-v4",
+  "report_dir": "artwork/v4",
+  "encoded_size": [
+    1536,
+    1872
+  ],
+  "encoded_mode": "RGBA",
+  "active_counts": [
+    6,
+    8,
+    8,
+    4,
+    5,
+    8,
+    6,
+    6,
+    6
+  ],
+  "active_frames": 57,
+  "blank_cells": [
+    {
+      "row": 0,
+      "column": 6,
+      "clear": true
+    },
+    {
+      "row": 0,
+      "column": 7,
+      "clear": true
+    },
+    {
+      "row": 3,
+      "column": 4,
+      "clear": true
+    },
+    {
+      "row": 3,
+      "column": 5,
+      "clear": true
+    },
+    {
+      "row": 3,
+      "column": 6,
+      "clear": true
+    },
+    {
+      "row": 3,
+      "column": 7,
+      "clear": true
+    },
+    {
+      "row": 4,
+      "column": 5,
+      "clear": true
+    },
+    {
+      "row": 4,
+      "column": 6,
+      "clear": true
+    },
+    {
+      "row": 4,
+      "column": 7,
+      "clear": true
+    },
+    {
+      "row": 6,
+      "column": 6,
+      "clear": true
+    },
+    {
+      "row": 6,
+      "column": 7,
+      "clear": true
+    },
+    {
+      "row": 7,
+      "column": 6,
+      "clear": true
+    },
+    {
+      "row": 7,
+      "column": 7,
+      "clear": true
+    },
+    {
+      "row": 8,
+      "column": 6,
+      "clear": true
+    },
+    {
+      "row": 8,
+      "column": 7,
+      "clear": true
+    }
+  ],
+  "minimum_padding": 8,
+  "all_blank_cells_clear": true,
+  "alpha_cutoff": 8,
+  "failures": [],
+  "source_registration": [
+    {
+      "source": "idle",
+      "source_frame": 0,
+      "path": "artwork/v4/sources/idle.png",
+      "source_size": [
+        743,
+        1227
+      ],
+      "source_crop": [
+        0,
+        0,
+        743,
+        1227
+      ],
+      "head_box_in_tile": [
+        0,
+        146,
+        743,
+        757
+      ],
+      "anchor_in_tile": [
+        384,
+        1227
+      ],
+      "painted_box_in_tile": [
+        0,
+        0,
+        743,
+        1227
+      ],
+      "target_head_width": 86.0,
+      "base_scale": 0.11574697173620457,
+      "source_touches_crop_edge": true
+    },
+    {
+      "source": "run-right",
+      "source_frame": 0,
+      "path": "artwork/v4/sources/run-left-locked-0.png",
+      "source_size": [
+        688,
+        571
+      ],
+      "source_crop": [
+        0,
+        0,
+        688,
+        571
+      ],
+      "head_box_in_tile": [
+        267,
+        61,
+        587,
+        310
+      ],
+      "anchor_in_tile": [
+        450,
+        562
+      ],
+      "painted_box_in_tile": [
+        272,
+        5,
+        634,
+        556
+      ],
+      "target_head_width": 86.0,
+      "base_scale": 0.26875,
+      "source_touches_crop_edge": false
+    },
+    {
+      "source": "run-right",
+      "source_frame": 1,
+      "path": "artwork/v4/sources/run-left-locked-1.png",
+      "source_size": [
+        688,
+        571
+      ],
+      "source_crop": [
+        0,
+        0,
+        688,
+        571
+      ],
+      "head_box_in_tile": [
+        267,
+        61,
+        587,
+        310
+      ],
+      "anchor_in_tile": [
+        450,
+        562
+      ],
+      "painted_box_in_tile": [
+        272,
+        5,
+        634,
+        565
+      ],
+      "target_head_width": 86.0,
+      "base_scale": 0.26875,
+      "source_touches_crop_edge": false
+    },
+    {
+      "source": "run-right",
+      "source_frame": 2,
+      "path": "artwork/v4/sources/run-left-locked-2.png",
+      "source_size": [
+        688,
+        571
+      ],
+      "source_crop": [
+        0,
+        0,
+        688,
+        571
+      ],
+      "head_box_in_tile": [
+        267,
+        61,
+        587,
+        310
+      ],
+      "anchor_in_tile": [
+        450,
+        562
+      ],
+      "painted_box_in_tile": [
+        272,
+        5,
+        634,
+        562
+      ],
+      "target_head_width": 86.0,
+      "base_scale": 0.26875,
+      "source_touches_crop_edge": false
+    },
+    {
+      "source": "run-right",
+      "source_frame": 3,
+      "path": "artwork/v4/sources/run-left-locked-3.png",
+      "source_size": [
+        688,
+        571
+      ],
+      "source_crop": [
+        0,
+        0,
+        688,
+        571
+      ],
+      "head_box_in_tile": [
+        267,
+        61,
+        587,
+        310
+      ],
+      "anchor_in_tile": [
+        450,
+        562
+      ],
+      "painted_box_in_tile": [
+        272,
+        5,
+        634,
+        566
+      ],
+      "target_head_width": 86.0,
+      "base_scale": 0.26875,
+      "source_touches_crop_edge": false
+    },
+    {
+      "source": "run-left",
+      "source_frame": 0,
+      "path": "artwork/v4/sources/run-left-locked-0.png",
+      "source_size": [
+        688,
+        571
+      ],
+      "source_crop": [
+        0,
+        0,
+        688,
+        571
+      ],
+      "head_box_in_tile": [
+        267,
+        61,
+        587,
+        310
+      ],
+      "anchor_in_tile": [
+        450,
+        562
+      ],
+      "painted_box_in_tile": [
+        272,
+        5,
+        634,
+        556
+      ],
+      "target_head_width": 86.0,
+      "base_scale": 0.26875,
+      "source_touches_crop_edge": false
+    },
+    {
+      "source": "run-left",
+      "source_frame": 1,
+      "path": "artwork/v4/sources/run-left-locked-1.png",
+      "source_size": [
+        688,
+        571
+      ],
+      "source_crop": [
+        0,
+        0,
+        688,
+        571
+      ],
+      "head_box_in_tile": [
+        267,
+        61,
+        587,
+        310
+      ],
+      "anchor_in_tile": [
+        450,
+        562
+      ],
+      "painted_box_in_tile": [
+        272,
+        5,
+        634,
+        565
+      ],
+      "target_head_width": 86.0,
+      "base_scale": 0.26875,
+      "source_touches_crop_edge": false
+    },
+    {
+      "source": "run-left",
+      "source_frame": 2,
+      "path": "artwork/v4/sources/run-left-locked-2.png",
+      "source_size": [
+        688,
+        571
+      ],
+      "source_crop": [
+        0,
+        0,
+        688,
+        571
+      ],
+      "head_box_in_tile": [
+        267,
+        61,
+        587,
+        310
+      ],
+      "anchor_in_tile": [
+        450,
+        562
+      ],
+      "painted_box_in_tile": [
+        272,
+        5,
+        634,
+        562
+      ],
+      "target_head_width": 86.0,
+      "base_scale": 0.26875,
+      "source_touches_crop_edge": false
+    },
+    {
+      "source": "run-left",
+      "source_frame": 3,
+      "path": "artwork/v4/sources/run-left-locked-3.png",
+      "source_size": [
+        688,
+        571
+      ],
+      "source_crop": [
+        0,
+        0,
+        688,
+        571
+      ],
+      "head_box_in_tile": [
+        267,
+        61,
+        587,
+        310
+      ],
+      "anchor_in_tile": [
+        450,
+        562
+      ],
+      "painted_box_in_tile": [
+        272,
+        5,
+        634,
+        566
+      ],
+      "target_head_width": 86.0,
+      "base_scale": 0.26875,
+      "source_touches_crop_edge": false
+    },
+    {
+      "source": "wave",
+      "source_frame": 0,
+      "path": "artwork/v4/sources/wave-locked-in.png",
+      "source_size": [
+        1067,
+        1474
+      ],
+      "source_crop": [
+        0,
+        0,
+        1067,
+        1474
+      ],
+      "head_box_in_tile": [
+        214,
+        144,
+        914,
+        734
+      ],
+      "anchor_in_tile": [
+        580,
+        1459
+      ],
+      "painted_box_in_tile": [
+        214,
+        9,
+        914,
+        1459
+      ],
+      "target_head_width": 86.0,
+      "base_scale": 0.12285714285714286,
+      "source_touches_crop_edge": false
+    },
+    {
+      "source": "wave",
+      "source_frame": 1,
+      "path": "artwork/v4/sources/wave-locked-out.png",
+      "source_size": [
+        1067,
+        1474
+      ],
+      "source_crop": [
+        0,
+        0,
+        1067,
+        1474
+      ],
+      "head_box_in_tile": [
+        214,
+        144,
+        914,
+        734
+      ],
+      "anchor_in_tile": [
+        580,
+        1459
+      ],
+      "painted_box_in_tile": [
+        214,
+        9,
+        914,
+        1459
+      ],
+      "target_head_width": 86.0,
+      "base_scale": 0.12285714285714286,
+      "source_touches_crop_edge": false
+    },
+    {
+      "source": "wave",
+      "source_frame": 2,
+      "path": "artwork/v4/sources/wave-locked-out.png",
+      "source_size": [
+        1067,
+        1474
+      ],
+      "source_crop": [
+        0,
+        0,
+        1067,
+        1474
+      ],
+      "head_box_in_tile": [
+        214,
+        144,
+        914,
+        734
+      ],
+      "anchor_in_tile": [
+        580,
+        1459
+      ],
+      "painted_box_in_tile": [
+        214,
+        9,
+        914,
+        1459
+      ],
+      "target_head_width": 86.0,
+      "base_scale": 0.12285714285714286,
+      "source_touches_crop_edge": false
+    },
+    {
+      "source": "wave",
+      "source_frame": 3,
+      "path": "artwork/v4/sources/wave-locked-in.png",
+      "source_size": [
+        1067,
+        1474
+      ],
+      "source_crop": [
+        0,
+        0,
+        1067,
+        1474
+      ],
+      "head_box_in_tile": [
+        214,
+        144,
+        914,
+        734
+      ],
+      "anchor_in_tile": [
+        580,
+        1459
+      ],
+      "painted_box_in_tile": [
+        214,
+        9,
+        914,
+        1459
+      ],
+      "target_head_width": 86.0,
+      "base_scale": 0.12285714285714286,
+      "source_touches_crop_edge": false
+    },
+    {
+      "source": "jump",
+      "source_frame": 0,
+      "path": "artwork/v4/sources/jump.png",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "source_crop": [
+        0,
+        0,
+        1024,
+        1536
+      ],
+      "head_box_in_tile": [
+        143,
+        147,
+        893,
+        752
+      ],
+      "anchor_in_tile": [
+        512,
+        1524
+      ],
+      "painted_box_in_tile": [
+        139,
+        8,
+        925,
+        1524
+      ],
+      "target_head_width": 86.0,
+      "base_scale": 0.11466666666666667,
+      "source_touches_crop_edge": false
+    },
+    {
+      "source": "failed",
+      "source_frame": 0,
+      "path": "artwork/v4/sources/failed.png",
+      "source_size": [
+        1190,
+        1322
+      ],
+      "source_crop": [
+        0,
+        0,
+        1190,
+        1322
+      ],
+      "head_box_in_tile": [
+        241,
+        155,
+        1002,
+        792
+      ],
+      "anchor_in_tile": [
+        650,
+        1310
+      ],
+      "painted_box_in_tile": [
+        241,
+        5,
+        1002,
+        1310
+      ],
+      "target_head_width": 86.0,
+      "base_scale": 0.11300919842312747,
+      "source_touches_crop_edge": false
+    },
+    {
+      "source": "waiting",
+      "source_frame": 0,
+      "path": "artwork/v4/sources/waiting-warm.png",
+      "source_size": [
+        1103,
+        1426
+      ],
+      "source_crop": [
+        0,
+        0,
+        1103,
+        1426
+      ],
+      "head_box_in_tile": [
+        183,
+        194,
+        1058,
+        894
+      ],
+      "anchor_in_tile": [
+        650,
+        1426
+      ],
+      "painted_box_in_tile": [
+        42,
+        20,
+        1060,
+        1426
+      ],
+      "target_head_width": 86.0,
+      "base_scale": 0.09828571428571428,
+      "source_touches_crop_edge": true
+    },
+    {
+      "source": "review",
+      "source_frame": 0,
+      "path": "artwork/v4/sources/review.png",
+      "source_size": [
+        1237,
+        1271
+      ],
+      "source_crop": [
+        0,
+        0,
+        1237,
+        1271
+      ],
+      "head_box_in_tile": [
+        239,
+        146,
+        1067,
+        802
+      ],
+      "anchor_in_tile": [
+        650,
+        1229
+      ],
+      "painted_box_in_tile": [
+        239,
+        6,
+        1067,
+        1229
+      ],
+      "target_head_width": 86.0,
+      "base_scale": 0.10386473429951691,
+      "source_touches_crop_edge": false
+    }
+  ],
+  "frames": [
+    {
+      "row": 0,
+      "state": "idle",
+      "frame": 0,
+      "source": "idle",
+      "source_frame": 0,
+      "destination_bounds": [
+        52,
+        56,
+        138,
+        198
+      ],
+      "margins": [
+        52,
+        56,
+        54,
+        10
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 1.0
+      },
+      "raster_scale": [
+        0.11574697173620457,
+        0.11572942135289324
+      ],
+      "mirrored_x": false
+    },
+    {
+      "row": 0,
+      "state": "idle",
+      "frame": 1,
+      "source": "idle",
+      "source_frame": 0,
+      "destination_bounds": [
+        52,
+        56,
+        138,
+        198
+      ],
+      "margins": [
+        52,
+        56,
+        54,
+        10
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 1.0013819660112502
+      },
+      "raster_scale": [
+        0.11574697173620457,
+        0.11572942135289324
+      ],
+      "mirrored_x": false
+    },
+    {
+      "row": 0,
+      "state": "idle",
+      "frame": 2,
+      "source": "idle",
+      "source_frame": 0,
+      "destination_bounds": [
+        52,
+        55,
+        138,
+        198
+      ],
+      "margins": [
+        52,
+        55,
+        54,
+        10
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 1.00361803398875
+      },
+      "raster_scale": [
+        0.11574697173620457,
+        0.1165444172779136
+      ],
+      "mirrored_x": false
+    },
+    {
+      "row": 0,
+      "state": "idle",
+      "frame": 3,
+      "source": "idle",
+      "source_frame": 0,
+      "destination_bounds": [
+        52,
+        55,
+        138,
+        198
+      ],
+      "margins": [
+        52,
+        55,
+        54,
+        10
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 1.00361803398875
+      },
+      "raster_scale": [
+        0.11574697173620457,
+        0.1165444172779136
+      ],
+      "mirrored_x": false
+    },
+    {
+      "row": 0,
+      "state": "idle",
+      "frame": 4,
+      "source": "idle",
+      "source_frame": 0,
+      "destination_bounds": [
+        52,
+        56,
+        138,
+        198
+      ],
+      "margins": [
+        52,
+        56,
+        54,
+        10
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 1.0013819660112502
+      },
+      "raster_scale": [
+        0.11574697173620457,
+        0.11572942135289324
+      ],
+      "mirrored_x": false
+    },
+    {
+      "row": 0,
+      "state": "idle",
+      "frame": 5,
+      "source": "idle",
+      "source_frame": 0,
+      "destination_bounds": [
+        52,
+        56,
+        138,
+        198
+      ],
+      "margins": [
+        52,
+        56,
+        54,
+        10
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 1.0
+      },
+      "raster_scale": [
+        0.11574697173620457,
+        0.11572942135289324
+      ],
+      "mirrored_x": false
+    },
+    {
+      "row": 1,
+      "state": "running-right",
+      "frame": 0,
+      "source": "run-right",
+      "source_frame": 0,
+      "destination_bounds": [
+        47,
+        48,
+        144,
+        196
+      ],
+      "margins": [
+        47,
+        48,
+        48,
+        12
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 1
+      },
+      "raster_scale": [
+        0.26795580110497236,
+        0.26860254083484575
+      ],
+      "mirrored_x": true
+    },
+    {
+      "row": 1,
+      "state": "running-right",
+      "frame": 1,
+      "source": "run-right",
+      "source_frame": 0,
+      "destination_bounds": [
+        47,
+        48,
+        144,
+        196
+      ],
+      "margins": [
+        47,
+        48,
+        48,
+        12
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 1
+      },
+      "raster_scale": [
+        0.26795580110497236,
+        0.26860254083484575
+      ],
+      "mirrored_x": true
+    },
+    {
+      "row": 1,
+      "state": "running-right",
+      "frame": 2,
+      "source": "run-right",
+      "source_frame": 1,
+      "destination_bounds": [
+        47,
+        49,
+        144,
+        199
+      ],
+      "margins": [
+        47,
+        49,
+        48,
+        9
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 1
+      },
+      "raster_scale": [
+        0.26795580110497236,
+        0.26785714285714285
+      ],
+      "mirrored_x": true
+    },
+    {
+      "row": 1,
+      "state": "running-right",
+      "frame": 3,
+      "source": "run-right",
+      "source_frame": 1,
+      "destination_bounds": [
+        47,
+        49,
+        144,
+        199
+      ],
+      "margins": [
+        47,
+        49,
+        48,
+        9
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 1
+      },
+      "raster_scale": [
+        0.26795580110497236,
+        0.26785714285714285
+      ],
+      "mirrored_x": true
+    },
+    {
+      "row": 1,
+      "state": "running-right",
+      "frame": 4,
+      "source": "run-right",
+      "source_frame": 2,
+      "destination_bounds": [
+        47,
+        48,
+        144,
+        198
+      ],
+      "margins": [
+        47,
+        48,
+        48,
+        10
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 1
+      },
+      "raster_scale": [
+        0.26795580110497236,
+        0.26929982046678635
+      ],
+      "mirrored_x": true
+    },
+    {
+      "row": 1,
+      "state": "running-right",
+      "frame": 5,
+      "source": "run-right",
+      "source_frame": 2,
+      "destination_bounds": [
+        47,
+        48,
+        144,
+        198
+      ],
+      "margins": [
+        47,
+        48,
+        48,
+        10
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 1
+      },
+      "raster_scale": [
+        0.26795580110497236,
+        0.26929982046678635
+      ],
+      "mirrored_x": true
+    },
+    {
+      "row": 1,
+      "state": "running-right",
+      "frame": 6,
+      "source": "run-right",
+      "source_frame": 3,
+      "destination_bounds": [
+        47,
+        48,
+        144,
+        199
+      ],
+      "margins": [
+        47,
+        48,
+        48,
+        9
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 1
+      },
+      "raster_scale": [
+        0.26795580110497236,
+        0.26916221033868093
+      ],
+      "mirrored_x": true
+    },
+    {
+      "row": 1,
+      "state": "running-right",
+      "frame": 7,
+      "source": "run-right",
+      "source_frame": 3,
+      "destination_bounds": [
+        47,
+        48,
+        144,
+        199
+      ],
+      "margins": [
+        47,
+        48,
+        48,
+        9
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 1
+      },
+      "raster_scale": [
+        0.26795580110497236,
+        0.26916221033868093
+      ],
+      "mirrored_x": true
+    },
+    {
+      "row": 2,
+      "state": "running-left",
+      "frame": 0,
+      "source": "run-left",
+      "source_frame": 0,
+      "destination_bounds": [
+        48,
+        48,
+        145,
+        196
+      ],
+      "margins": [
+        48,
+        48,
+        47,
+        12
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 1
+      },
+      "raster_scale": [
+        0.26795580110497236,
+        0.26860254083484575
+      ],
+      "mirrored_x": false
+    },
+    {
+      "row": 2,
+      "state": "running-left",
+      "frame": 1,
+      "source": "run-left",
+      "source_frame": 0,
+      "destination_bounds": [
+        48,
+        48,
+        145,
+        196
+      ],
+      "margins": [
+        48,
+        48,
+        47,
+        12
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 1
+      },
+      "raster_scale": [
+        0.26795580110497236,
+        0.26860254083484575
+      ],
+      "mirrored_x": false
+    },
+    {
+      "row": 2,
+      "state": "running-left",
+      "frame": 2,
+      "source": "run-left",
+      "source_frame": 1,
+      "destination_bounds": [
+        48,
+        49,
+        145,
+        199
+      ],
+      "margins": [
+        48,
+        49,
+        47,
+        9
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 1
+      },
+      "raster_scale": [
+        0.26795580110497236,
+        0.26785714285714285
+      ],
+      "mirrored_x": false
+    },
+    {
+      "row": 2,
+      "state": "running-left",
+      "frame": 3,
+      "source": "run-left",
+      "source_frame": 1,
+      "destination_bounds": [
+        48,
+        49,
+        145,
+        199
+      ],
+      "margins": [
+        48,
+        49,
+        47,
+        9
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 1
+      },
+      "raster_scale": [
+        0.26795580110497236,
+        0.26785714285714285
+      ],
+      "mirrored_x": false
+    },
+    {
+      "row": 2,
+      "state": "running-left",
+      "frame": 4,
+      "source": "run-left",
+      "source_frame": 2,
+      "destination_bounds": [
+        48,
+        48,
+        145,
+        198
+      ],
+      "margins": [
+        48,
+        48,
+        47,
+        10
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 1
+      },
+      "raster_scale": [
+        0.26795580110497236,
+        0.26929982046678635
+      ],
+      "mirrored_x": false
+    },
+    {
+      "row": 2,
+      "state": "running-left",
+      "frame": 5,
+      "source": "run-left",
+      "source_frame": 2,
+      "destination_bounds": [
+        48,
+        48,
+        145,
+        198
+      ],
+      "margins": [
+        48,
+        48,
+        47,
+        10
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 1
+      },
+      "raster_scale": [
+        0.26795580110497236,
+        0.26929982046678635
+      ],
+      "mirrored_x": false
+    },
+    {
+      "row": 2,
+      "state": "running-left",
+      "frame": 6,
+      "source": "run-left",
+      "source_frame": 3,
+      "destination_bounds": [
+        48,
+        48,
+        145,
+        199
+      ],
+      "margins": [
+        48,
+        48,
+        47,
+        9
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 1
+      },
+      "raster_scale": [
+        0.26795580110497236,
+        0.26916221033868093
+      ],
+      "mirrored_x": false
+    },
+    {
+      "row": 2,
+      "state": "running-left",
+      "frame": 7,
+      "source": "run-left",
+      "source_frame": 3,
+      "destination_bounds": [
+        48,
+        48,
+        145,
+        199
+      ],
+      "margins": [
+        48,
+        48,
+        47,
+        9
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 1
+      },
+      "raster_scale": [
+        0.26795580110497236,
+        0.26916221033868093
+      ],
+      "mirrored_x": false
+    },
+    {
+      "row": 3,
+      "state": "waving",
+      "frame": 0,
+      "source": "wave",
+      "source_frame": 0,
+      "destination_bounds": [
+        51,
+        20,
+        137,
+        198
+      ],
+      "margins": [
+        51,
+        20,
+        55,
+        10
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 1
+      },
+      "raster_scale": [
+        0.12285714285714286,
+        0.12275862068965518
+      ],
+      "mirrored_x": false
+    },
+    {
+      "row": 3,
+      "state": "waving",
+      "frame": 1,
+      "source": "wave",
+      "source_frame": 1,
+      "destination_bounds": [
+        51,
+        20,
+        137,
+        198
+      ],
+      "margins": [
+        51,
+        20,
+        55,
+        10
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 1
+      },
+      "raster_scale": [
+        0.12285714285714286,
+        0.12275862068965518
+      ],
+      "mirrored_x": false
+    },
+    {
+      "row": 3,
+      "state": "waving",
+      "frame": 2,
+      "source": "wave",
+      "source_frame": 2,
+      "destination_bounds": [
+        51,
+        20,
+        137,
+        198
+      ],
+      "margins": [
+        51,
+        20,
+        55,
+        10
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 1
+      },
+      "raster_scale": [
+        0.12285714285714286,
+        0.12275862068965518
+      ],
+      "mirrored_x": false
+    },
+    {
+      "row": 3,
+      "state": "waving",
+      "frame": 3,
+      "source": "wave",
+      "source_frame": 3,
+      "destination_bounds": [
+        51,
+        20,
+        137,
+        198
+      ],
+      "margins": [
+        51,
+        20,
+        55,
+        10
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 1
+      },
+      "raster_scale": [
+        0.12285714285714286,
+        0.12275862068965518
+      ],
+      "mirrored_x": false
+    },
+    {
+      "row": 4,
+      "state": "jumping",
+      "frame": 0,
+      "source": "jump",
+      "source_frame": 0,
+      "destination_bounds": [
+        53,
+        29,
+        143,
+        198
+      ],
+      "margins": [
+        53,
+        29,
+        49,
+        10
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 0.97
+      },
+      "raster_scale": [
+        0.11450381679389313,
+        0.11147757255936676
+      ],
+      "mirrored_x": false
+    },
+    {
+      "row": 4,
+      "state": "jumping",
+      "frame": 1,
+      "source": "jump",
+      "source_frame": 0,
+      "destination_bounds": [
+        53,
+        16,
+        143,
+        192
+      ],
+      "margins": [
+        53,
+        16,
+        49,
+        16
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": -6,
+        "scale_x": 1,
+        "scale_y": 1.01
+      },
+      "raster_scale": [
+        0.11450381679389313,
+        0.11609498680738786
+      ],
+      "mirrored_x": false
+    },
+    {
+      "row": 4,
+      "state": "jumping",
+      "frame": 2,
+      "source": "jump",
+      "source_frame": 0,
+      "destination_bounds": [
+        53,
+        10,
+        143,
+        184
+      ],
+      "margins": [
+        53,
+        10,
+        49,
+        24
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": -14,
+        "scale_x": 1,
+        "scale_y": 1
+      },
+      "raster_scale": [
+        0.11450381679389313,
+        0.11477572559366754
+      ],
+      "mirrored_x": false
+    },
+    {
+      "row": 4,
+      "state": "jumping",
+      "frame": 3,
+      "source": "jump",
+      "source_frame": 0,
+      "destination_bounds": [
+        53,
+        16,
+        143,
+        192
+      ],
+      "margins": [
+        53,
+        16,
+        49,
+        16
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": -6,
+        "scale_x": 1,
+        "scale_y": 1.01
+      },
+      "raster_scale": [
+        0.11450381679389313,
+        0.11609498680738786
+      ],
+      "mirrored_x": false
+    },
+    {
+      "row": 4,
+      "state": "jumping",
+      "frame": 4,
+      "source": "jump",
+      "source_frame": 0,
+      "destination_bounds": [
+        53,
+        29,
+        143,
+        198
+      ],
+      "margins": [
+        53,
+        29,
+        49,
+        10
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 0.97
+      },
+      "raster_scale": [
+        0.11450381679389313,
+        0.11147757255936676
+      ],
+      "mirrored_x": false
+    },
+    {
+      "row": 5,
+      "state": "failed",
+      "frame": 0,
+      "source": "failed",
+      "source_frame": 0,
+      "destination_bounds": [
+        50,
+        51,
+        136,
+        198
+      ],
+      "margins": [
+        50,
+        51,
+        56,
+        10
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 1.0
+      },
+      "raster_scale": [
+        0.11300919842312747,
+        0.11264367816091954
+      ],
+      "mirrored_x": false
+    },
+    {
+      "row": 5,
+      "state": "failed",
+      "frame": 1,
+      "source": "failed",
+      "source_frame": 0,
+      "destination_bounds": [
+        50,
+        50,
+        136,
+        198
+      ],
+      "margins": [
+        50,
+        50,
+        56,
+        10
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 1.0007530203962824
+      },
+      "raster_scale": [
+        0.11300919842312747,
+        0.11340996168582375
+      ],
+      "mirrored_x": false
+    },
+    {
+      "row": 5,
+      "state": "failed",
+      "frame": 2,
+      "source": "failed",
+      "source_frame": 0,
+      "destination_bounds": [
+        50,
+        50,
+        136,
+        198
+      ],
+      "margins": [
+        50,
+        50,
+        56,
+        10
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 1.0024450418679127
+      },
+      "raster_scale": [
+        0.11300919842312747,
+        0.11340996168582375
+      ],
+      "mirrored_x": false
+    },
+    {
+      "row": 5,
+      "state": "failed",
+      "frame": 3,
+      "source": "failed",
+      "source_frame": 0,
+      "destination_bounds": [
+        50,
+        50,
+        136,
+        198
+      ],
+      "margins": [
+        50,
+        50,
+        56,
+        10
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 1.0038019377358047
+      },
+      "raster_scale": [
+        0.11300919842312747,
+        0.11340996168582375
+      ],
+      "mirrored_x": false
+    },
+    {
+      "row": 5,
+      "state": "failed",
+      "frame": 4,
+      "source": "failed",
+      "source_frame": 0,
+      "destination_bounds": [
+        50,
+        50,
+        136,
+        198
+      ],
+      "margins": [
+        50,
+        50,
+        56,
+        10
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 1.0038019377358047
+      },
+      "raster_scale": [
+        0.11300919842312747,
+        0.11340996168582375
+      ],
+      "mirrored_x": false
+    },
+    {
+      "row": 5,
+      "state": "failed",
+      "frame": 5,
+      "source": "failed",
+      "source_frame": 0,
+      "destination_bounds": [
+        50,
+        50,
+        136,
+        198
+      ],
+      "margins": [
+        50,
+        50,
+        56,
+        10
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 1.0024450418679127
+      },
+      "raster_scale": [
+        0.11300919842312747,
+        0.11340996168582375
+      ],
+      "mirrored_x": false
+    },
+    {
+      "row": 5,
+      "state": "failed",
+      "frame": 6,
+      "source": "failed",
+      "source_frame": 0,
+      "destination_bounds": [
+        50,
+        50,
+        136,
+        198
+      ],
+      "margins": [
+        50,
+        50,
+        56,
+        10
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 1.0007530203962824
+      },
+      "raster_scale": [
+        0.11300919842312747,
+        0.11340996168582375
+      ],
+      "mirrored_x": false
+    },
+    {
+      "row": 5,
+      "state": "failed",
+      "frame": 7,
+      "source": "failed",
+      "source_frame": 0,
+      "destination_bounds": [
+        50,
+        51,
+        136,
+        198
+      ],
+      "margins": [
+        50,
+        51,
+        56,
+        10
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 1.0
+      },
+      "raster_scale": [
+        0.11300919842312747,
+        0.11264367816091954
+      ],
+      "mirrored_x": false
+    },
+    {
+      "row": 6,
+      "state": "waiting",
+      "frame": 0,
+      "source": "waiting",
+      "source_frame": 0,
+      "destination_bounds": [
+        36,
+        60,
+        136,
+        198
+      ],
+      "margins": [
+        36,
+        60,
+        56,
+        10
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 1.0
+      },
+      "raster_scale": [
+        0.09823182711198428,
+        0.09815078236130868
+      ],
+      "mirrored_x": false
+    },
+    {
+      "row": 6,
+      "state": "waiting",
+      "frame": 1,
+      "source": "waiting",
+      "source_frame": 0,
+      "destination_bounds": [
+        36,
+        60,
+        136,
+        198
+      ],
+      "margins": [
+        36,
+        60,
+        56,
+        10
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 1.0013819660112502
+      },
+      "raster_scale": [
+        0.09823182711198428,
+        0.09815078236130868
+      ],
+      "mirrored_x": false
+    },
+    {
+      "row": 6,
+      "state": "waiting",
+      "frame": 2,
+      "source": "waiting",
+      "source_frame": 0,
+      "destination_bounds": [
+        36,
+        59,
+        136,
+        198
+      ],
+      "margins": [
+        36,
+        59,
+        56,
+        10
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 1.00361803398875
+      },
+      "raster_scale": [
+        0.09823182711198428,
+        0.09886201991465149
+      ],
+      "mirrored_x": false
+    },
+    {
+      "row": 6,
+      "state": "waiting",
+      "frame": 3,
+      "source": "waiting",
+      "source_frame": 0,
+      "destination_bounds": [
+        36,
+        59,
+        136,
+        198
+      ],
+      "margins": [
+        36,
+        59,
+        56,
+        10
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 1.00361803398875
+      },
+      "raster_scale": [
+        0.09823182711198428,
+        0.09886201991465149
+      ],
+      "mirrored_x": false
+    },
+    {
+      "row": 6,
+      "state": "waiting",
+      "frame": 4,
+      "source": "waiting",
+      "source_frame": 0,
+      "destination_bounds": [
+        36,
+        60,
+        136,
+        198
+      ],
+      "margins": [
+        36,
+        60,
+        56,
+        10
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 1.0013819660112502
+      },
+      "raster_scale": [
+        0.09823182711198428,
+        0.09815078236130868
+      ],
+      "mirrored_x": false
+    },
+    {
+      "row": 6,
+      "state": "waiting",
+      "frame": 5,
+      "source": "waiting",
+      "source_frame": 0,
+      "destination_bounds": [
+        36,
+        60,
+        136,
+        198
+      ],
+      "margins": [
+        36,
+        60,
+        56,
+        10
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 1.0
+      },
+      "raster_scale": [
+        0.09823182711198428,
+        0.09815078236130868
+      ],
+      "mirrored_x": false
+    },
+    {
+      "row": 7,
+      "state": "running",
+      "frame": 0,
+      "source": "run-right",
+      "source_frame": 0,
+      "destination_bounds": [
+        47,
+        48,
+        144,
+        196
+      ],
+      "margins": [
+        47,
+        48,
+        48,
+        12
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 1
+      },
+      "raster_scale": [
+        0.26795580110497236,
+        0.26860254083484575
+      ],
+      "mirrored_x": true
+    },
+    {
+      "row": 7,
+      "state": "running",
+      "frame": 1,
+      "source": "run-right",
+      "source_frame": 0,
+      "destination_bounds": [
+        47,
+        48,
+        144,
+        196
+      ],
+      "margins": [
+        47,
+        48,
+        48,
+        12
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 1
+      },
+      "raster_scale": [
+        0.26795580110497236,
+        0.26860254083484575
+      ],
+      "mirrored_x": true
+    },
+    {
+      "row": 7,
+      "state": "running",
+      "frame": 2,
+      "source": "run-right",
+      "source_frame": 1,
+      "destination_bounds": [
+        47,
+        49,
+        144,
+        199
+      ],
+      "margins": [
+        47,
+        49,
+        48,
+        9
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 1
+      },
+      "raster_scale": [
+        0.26795580110497236,
+        0.26785714285714285
+      ],
+      "mirrored_x": true
+    },
+    {
+      "row": 7,
+      "state": "running",
+      "frame": 3,
+      "source": "run-right",
+      "source_frame": 2,
+      "destination_bounds": [
+        47,
+        48,
+        144,
+        198
+      ],
+      "margins": [
+        47,
+        48,
+        48,
+        10
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 1
+      },
+      "raster_scale": [
+        0.26795580110497236,
+        0.26929982046678635
+      ],
+      "mirrored_x": true
+    },
+    {
+      "row": 7,
+      "state": "running",
+      "frame": 4,
+      "source": "run-right",
+      "source_frame": 2,
+      "destination_bounds": [
+        47,
+        48,
+        144,
+        198
+      ],
+      "margins": [
+        47,
+        48,
+        48,
+        10
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 1
+      },
+      "raster_scale": [
+        0.26795580110497236,
+        0.26929982046678635
+      ],
+      "mirrored_x": true
+    },
+    {
+      "row": 7,
+      "state": "running",
+      "frame": 5,
+      "source": "run-right",
+      "source_frame": 3,
+      "destination_bounds": [
+        47,
+        48,
+        144,
+        199
+      ],
+      "margins": [
+        47,
+        48,
+        48,
+        9
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 1
+      },
+      "raster_scale": [
+        0.26795580110497236,
+        0.26916221033868093
+      ],
+      "mirrored_x": true
+    },
+    {
+      "row": 8,
+      "state": "review",
+      "frame": 0,
+      "source": "review",
+      "source_frame": 0,
+      "destination_bounds": [
+        53,
+        71,
+        139,
+        198
+      ],
+      "margins": [
+        53,
+        71,
+        53,
+        10
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 1.0
+      },
+      "raster_scale": [
+        0.10386473429951691,
+        0.10384300899427637
+      ],
+      "mirrored_x": false
+    },
+    {
+      "row": 8,
+      "state": "review",
+      "frame": 1,
+      "source": "review",
+      "source_frame": 0,
+      "destination_bounds": [
+        53,
+        71,
+        139,
+        198
+      ],
+      "margins": [
+        53,
+        71,
+        53,
+        10
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 1.0013819660112502
+      },
+      "raster_scale": [
+        0.10386473429951691,
+        0.10384300899427637
+      ],
+      "mirrored_x": false
+    },
+    {
+      "row": 8,
+      "state": "review",
+      "frame": 2,
+      "source": "review",
+      "source_frame": 0,
+      "destination_bounds": [
+        53,
+        71,
+        139,
+        198
+      ],
+      "margins": [
+        53,
+        71,
+        53,
+        10
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 1.00361803398875
+      },
+      "raster_scale": [
+        0.10386473429951691,
+        0.10384300899427637
+      ],
+      "mirrored_x": false
+    },
+    {
+      "row": 8,
+      "state": "review",
+      "frame": 3,
+      "source": "review",
+      "source_frame": 0,
+      "destination_bounds": [
+        53,
+        71,
+        139,
+        198
+      ],
+      "margins": [
+        53,
+        71,
+        53,
+        10
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 1.00361803398875
+      },
+      "raster_scale": [
+        0.10386473429951691,
+        0.10384300899427637
+      ],
+      "mirrored_x": false
+    },
+    {
+      "row": 8,
+      "state": "review",
+      "frame": 4,
+      "source": "review",
+      "source_frame": 0,
+      "destination_bounds": [
+        53,
+        71,
+        139,
+        198
+      ],
+      "margins": [
+        53,
+        71,
+        53,
+        10
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 1.0013819660112502
+      },
+      "raster_scale": [
+        0.10386473429951691,
+        0.10384300899427637
+      ],
+      "mirrored_x": false
+    },
+    {
+      "row": 8,
+      "state": "review",
+      "frame": 5,
+      "source": "review",
+      "source_frame": 0,
+      "destination_bounds": [
+        53,
+        71,
+        139,
+        198
+      ],
+      "margins": [
+        53,
+        71,
+        53,
+        10
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 1.0
+      },
+      "raster_scale": [
+        0.10386473429951691,
+        0.10384300899427637
+      ],
+      "mirrored_x": false
+    }
+  ],
+  "wave_local_composite": {
+    "base": "artwork/v4/sources/wave-in.png",
+    "edit": "artwork/v4/sources/wave-out.png",
+    "base_size": [
+      1067,
+      1474
+    ],
+    "polygon_pixels": [
+      [
+        264,
+        600
+      ],
+      [
+        391,
+        600
+      ],
+      [
+        410,
+        614
+      ],
+      [
+        445,
+        624
+      ],
+      [
+        490,
+        641
+      ],
+      [
+        523,
+        667
+      ],
+      [
+        555,
+        817
+      ],
+      [
+        523,
+        919
+      ],
+      [
+        446,
+        921
+      ],
+      [
+        358,
+        843
+      ],
+      [
+        328,
+        782
+      ],
+      [
+        272,
+        733
+      ]
+    ],
+    "edited_offset": [
+      0,
+      0
+    ],
+    "changed_pixels": 59404,
+    "changed_pixels_outside_polygon": 0,
+    "method": "Two generated hand poses; original body and face outside polygon remain pixel-identical."
+  },
+  "run_lower_body_composites": [
+    {
+      "source": "run-left",
+      "frame": 0,
+      "output": "artwork/v4/sources/run-left-locked-0.png",
+      "upper_body_rows_locked": 408,
+      "method": "Original head, torso and bag; generated lower pose aligned at manually registered pelvis."
+    },
+    {
+      "source": "run-left",
+      "frame": 1,
+      "output": "artwork/v4/sources/run-left-locked-1.png",
+      "upper_body_rows_locked": 408,
+      "method": "Original head, torso and bag; generated lower pose aligned at manually registered pelvis."
+    },
+    {
+      "source": "run-left",
+      "frame": 2,
+      "output": "artwork/v4/sources/run-left-locked-2.png",
+      "upper_body_rows_locked": 408,
+      "method": "Original head, torso and bag; generated lower pose aligned at manually registered pelvis."
+    },
+    {
+      "source": "run-left",
+      "frame": 3,
+      "output": "artwork/v4/sources/run-left-locked-3.png",
+      "upper_body_rows_locked": 408,
+      "method": "Original head, torso and bag; generated lower pose aligned at manually registered pelvis."
+    }
+  ],
+  "art_review": {
+    "status": "A_style_and_user_pose_visual_review_passed_pending_runtime_QA",
+    "hard_blockers": [],
+    "running_expression_requirement": "Latest feedback supersedes rigid >< symbols: natural soft effort squint, relaxed gently raised brows and tiny breathing mouth. Avoid angry brow compression, heavy chevron strokes and theatrical clenched/wavy mouth. Both directions must share the same edited facial pixels.",
+    "waiting_pose_requirement": "A-style seated chibi with vertical-line dazed cute eyes, both hands stretching pink dango to small mouth; green/blue/orange dango stack behind. This explicit user reference overrides prior waiting acting plan.",
+    "jump_pose_requirement": "A-style Nagisa seated on a large dango mount that lifts/bounces her; not standing holding a small dango. Restrained 14px levitation arc; consistent head width, no ahoge clipping or jump-only face shrink.",
+    "running_review": "Latest correction uses one complete naturally softened running master, sources/run-master-natural.png. Its head/torso/bag are locked across the four original small-step lower-body poses. Both directions reuse exactly the same frames, mirrored at final cell resolution. Earlier independent-source style and rigid-expression approvals are revoked; subjective acceptance remains with the user.",
+    "production_pending": [],
+    "limitations": [
+      "Single-pose idle/failed/waiting/review use restrained whole-group breathing rather than independent facial/skeletal animation.",
+      "Small-step running uses four registered generated key images with some similar silhouettes; not advertised as an anatomically exact four-phase gait.",
+      "Wave uses two actual hand poses held across four frames, locally composited while preserving facial features and body outside the reviewed region.",
+      "Dango-mount jump moves the complete group together over a 14px arc with mild vertical compression; no separate limb or mount articulation."
+    ]
+  },
+  "limitations": [
+    "Four genuine generated gait poses are held across eight atlas frames; no new leg anatomy is synthesized.",
+    "Single-pose states use restrained whole-silhouette breathing, not reconstructed facial or skeletal animation.",
+    "Jump translates and gently compresses one character-and-prop source group; no independent limb or mount articulation is synthesized.",
+    "Technical checks do not establish character fidelity, expression quality, loop quality or Codex runtime behavior."
+  ]
+}

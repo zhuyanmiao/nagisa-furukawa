@@ -3,3 +3,6 @@ run-summary.local.json
 repair-progress/raw-responses/
 repair-progress/tmp/
 *.tmp
+__pycache__/
+*.pyc
+.DS_Store

@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>古河渚 · 动画对照预览</title>
+<style>
+  :root { color-scheme: light; font-family: system-ui, -apple-system, sans-serif; color: #41352f; background: #f6f1eb; }
+  body { max-width: 1080px; margin: auto; padding: 28px 20px; }
+  h1 { margin: 0 0 8px; font-size: 25px; }
+  p { line-height: 1.65; }
+  .intro { color: #75665e; margin: 0 0 24px; }
+  .controls { display: flex; flex-wrap: wrap; align-items: center; gap: 16px; padding: 18px; border: 1px solid #dfd2c6; border-radius: 14px; background: #fffaf5; }
+  label { display: flex; align-items: center; gap: 7px; font-size: 14px; }
+  button, select { font: inherit; padding: 7px 10px; background: white; border: 1px solid #c9b8a9; border-radius: 7px; color: inherit; }
+  button { cursor: pointer; }
+  input { accent-color: #956953; }
+  .panels { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; margin: 22px 0; }
+  article { min-width: 0; border: 1px solid #dfd2c6; background: #fffaf5; border-radius: 16px; overflow: hidden; }
+  h2 { margin: 0; padding: 16px; font-size: 17px; }
+  .badge { font-size: 12px; margin-left: 5px; font-weight: normal; background: #f7e6be; border-radius: 5px; padding: 3px 6px; }
+  .stage { min-height: 440px; display: grid; place-items: center; overflow: auto; padding: 20px; box-sizing: border-box; }
+  .checker .stage { background-color: #fff; background-image: conic-gradient(#e4e0dc 25%, transparent 0 50%, #e4e0dc 0 75%, transparent 0); background-size: 24px 24px; }
+  .dark .stage { background: #252a30; }
+  .white .stage { background: #fff; }
+  canvas { display: block; max-width: none; flex-shrink: 0; }
+  .meta { font-size: 13px; line-height: 1.7; padding: 14px 16px; margin: 0; border-top: 1px solid #e8ded4; overflow-wrap: anywhere; }
+  .warn { color: #a15e19; }
+  .ok { color: #356c47; }
+  .missing { color: #a64336; }
+  .footer { font-size: 13px; color: #75665e; }
+  @media(max-width: 650px) { .panels { grid-template-columns: 1fr; } .stage { min-height: 248px; } article:nth-child(2) { order: -1; } }
+</style>
+<h1>古河渚 · 动画对照预览</h1>
+<p class="intro">V4 采用已选 A「精致但柔软的 Q 版」，按同一动作和帧号与原版比较，也可切换 V2。格式检查和美术审阅分别记录，实际 Codex 播放节奏仍需确认。<a href="style-comparison.html">查看画风选择</a></p>
+<div class="controls">
+  <label>动作 <select id="state"></select></label>
+  <label>版本 <select id="version"><option value="v4" selected>精致柔软 Q 版 A · V4</option><option value="soft">软萌团子 · V2</option></select></label>
+  <button id="toggle" type="button">暂停</button>
+  <button id="step" type="button">下一帧</button>
+  <label>速度 <input id="speed" type="range" min="1" max="16" value="6"><output id="speedValue">6 帧/秒</output></label>
+  <label>缩放 <select id="scale"><option value="1" selected>1× 实际帧尺寸</option><option value="1.5">1.5×</option><option value="2">2×</option><option value="3">3×</option></select></label>
+  <label>背景 <select id="background"><option value="checker">透明棋盘</option><option value="dark">深色</option><option value="white">白色</option></select></label>
+  <span id="frame" aria-live="off"></span>
+</div>
+<section class="panels checker" id="panels">
+  <article><h2>原版</h2><div class="stage"><canvas id="old" aria-label="原版当前动画帧"></canvas></div><p class="meta" id="oldMeta">正在加载原图…</p></article>
+  <article><h2><span id="candidateTitle">精致柔软 Q 版 A · V4</span> <span class="badge" id="candidateBadge">已选 A 画风</span></h2><div class="stage"><canvas id="candidate" aria-label="所选版本当前动画帧"></canvas></div><p class="meta" id="candidateMeta">正在加载图集…</p></article>
+</section>
+<p class="footer">固定按 8 列 × 9 行读取；每格尺寸取实际图像宽 ÷ 8、高 ÷ 9。要求的正式图集尺寸为 1536 × 1872，每格 192 × 208。本页仅绘制预览，不修改、不导出图片。速度用于人工审阅，并非 Codex 运行时速度。</p>
+<script>
+(() => {
+  'use strict';
+  const states = [
+    ['idle', '待机', 6], ['running-right', '向右跑', 8], ['running-left', '向左跑', 8],
+    ['waving', '挥手', 4], ['jumping', '轻跳·团子托起', 5], ['failed', '失落', 8],
+    ['waiting', '等待', 6], ['running', '跑动', 6], ['review', '审阅', 6]
+  ];
+  const byId = id => document.getElementById(id);
+  const stateSelect = byId('state');
+  states.forEach(([name, label, count], i) => {
+    const option = document.createElement('option');
+    option.value = i;
+    option.textContent = `${label} · ${name}（${count} 帧）`;
+    stateSelect.append(option);
+  });
+  let frame = 0, playing = true, lastTime = performance.now();
+  const assets = [
+    { id: 'old', src: '../nagisa-furukawa/spritesheet.webp' },
+    { id: 'candidate', src: '../nagisa-furukawa-v4/spritesheet.webp' }
+  ];
+  function draw() {
+    const row = Number(stateSelect.value);
+    const count = states[row][2];
+    frame %= count;
+    const scale = Number(byId('scale').value);
+    byId('frame').textContent = `第 ${frame + 1} / ${count} 帧`;
+    assets.forEach(asset => {
+      const canvas = byId(asset.id);
+      const context = canvas.getContext('2d');
+      canvas.width = 192 * scale;
+      canvas.height = 208 * scale;
+      canvas.style.width = `${192 * scale}px`;
+      canvas.style.height = `${208 * scale}px`;
+      if (!asset.ready) return;
+      const cw = asset.image.naturalWidth / 8;
+      const ch = asset.image.naturalHeight / 9;
+      context.imageSmoothingEnabled = true;
+      context.imageSmoothingQuality = 'high';
+      context.drawImage(asset.image, frame * cw, row * ch, cw, ch, 0, 0, canvas.width, canvas.height);
+    });
+  }
+  function loadAsset(asset) {
+    const image = new Image();
+    asset.ready = false;
+    asset.image = image;
+    image.onload = () => {
+      if (asset.image !== image) return;
+      asset.ready = true;
+      const w = image.naturalWidth, h = image.naturalHeight;
+      const valid = w === 1536 && h === 1872;
+      const meta = byId(`${asset.id}Meta`);
+      meta.replaceChildren(document.createTextNode(`实际尺寸：${w} × ${h}；每格：${(w / 8).toFixed(2)} × ${(h / 9).toFixed(2)}。 `));
+      const status = document.createElement('span');
+      status.className = valid ? 'ok' : 'warn';
+      status.textContent = valid ? '尺寸符合要求；动作与透明度仍须人工检查。' : '尺寸不符要求；当前仅按实际尺寸分格预览，不可据此直接安装。';
+      meta.append(status);
+      draw();
+    };
+    image.onerror = () => {
+      if (asset.image !== image) return;
+      const meta = byId(`${asset.id}Meta`);
+      meta.classList.add('missing');
+      meta.textContent = `无法加载图集：${asset.src}。请确认所选版本目录内含 spritesheet.webp。`;
+    };
+    image.src = asset.src;
+  }
+  assets.forEach(loadAsset);
+  byId('version').addEventListener('change', event => {
+    const isV4 = event.target.value === 'v4';
+    const candidate = assets.find(asset => asset.id === 'candidate');
+    candidate.src = isV4 ? '../nagisa-furukawa-v4/spritesheet.webp' : '../nagisa-furukawa-soft/spritesheet.webp';
+    byId('candidateTitle').textContent = isV4 ? '精致柔软 Q 版 A · V4' : '软萌团子 · V2';
+    byId('candidateBadge').textContent = isV4 ? '已选 A 画风' : '保留版本';
+    byId('candidateMeta').textContent = '正在加载图集…';
+    byId('candidateMeta').classList.remove('missing');
+    frame = 0;
+    lastTime = performance.now();
+    loadAsset(candidate);
+    draw();
+  });
+  stateSelect.addEventListener('change', () => { frame = 0; lastTime = performance.now(); draw(); });
+  byId('scale').addEventListener('change', draw);
+  byId('background').addEventListener('change', event => { byId('panels').className = `panels ${event.target.value}`; });
+  byId('speed').addEventListener('input', event => { byId('speedValue').value = `${event.target.value} 帧/秒`; lastTime = performance.now(); });
+  function setPlaying(value) { playing = value; byId('toggle').textContent = playing ? '暂停' : '播放'; lastTime = performance.now(); }
+  byId('toggle').addEventListener('click', () => setPlaying(!playing));
+  byId('step').addEventListener('click', () => { setPlaying(false); frame++; draw(); });
+  function tick(time) {
+    const interval = 1000 / Number(byId('speed').value);
+    if (playing && time - lastTime >= interval) {
+      const steps = Math.floor((time - lastTime) / interval);
+      frame += steps;
+      lastTime += steps * interval;
+      draw();
+    }
+    requestAnimationFrame(tick);
+  }
+  document.addEventListener('visibilitychange', () => { lastTime = performance.now(); });
+  draw();
+  requestAnimationFrame(tick);
+})();
+</script>
+</html>

@@ -1,0 +1,1778 @@
+{
+  "source": "artwork/spritesheet-v2.png",
+  "source_size": [
+    1136,
+    1385
+  ],
+  "output": "artwork/spritesheet-v2-packed.webp",
+  "required_size": [
+    1536,
+    1872
+  ],
+  "active_counts": [
+    6,
+    8,
+    8,
+    4,
+    5,
+    8,
+    6,
+    6,
+    6
+  ],
+  "alpha_cutoff": 8,
+  "opaque_alpha_floor": 248,
+  "extraction_bands": [
+    0,
+    151,
+    309,
+    467,
+    626,
+    787,
+    931,
+    1082,
+    1230,
+    1385
+  ],
+  "minimum_padding": 8,
+  "boundary_repairs": "Per-column lower splits remove next-row hair. Waiting/review clipped ahoge replaced using original idle frame 1 crop [191,4,248,24], including 4px scalp overlap. No invented anatomy.",
+  "status": "packed_candidate_requires_visual_QA",
+  "frames": [
+    {
+      "row": 0,
+      "state": "idle",
+      "column": 0,
+      "source_crop": [
+        0,
+        0,
+        142,
+        151
+      ],
+      "source_bbox_in_crop": [
+        32,
+        3,
+        129,
+        151
+      ],
+      "removed_isolated_pixels": 13,
+      "row_scale": 1.2972972972972974,
+      "destination_bbox": [
+        33,
+        8,
+        159,
+        200
+      ],
+      "upper_hair_donor_repair": false,
+      "warnings": [
+        "source_content_touches_extraction_boundary_possible_clipping"
+      ]
+    },
+    {
+      "row": 0,
+      "state": "idle",
+      "column": 1,
+      "source_crop": [
+        142,
+        0,
+        284,
+        151
+      ],
+      "source_bbox_in_crop": [
+        28,
+        4,
+        127,
+        150
+      ],
+      "removed_isolated_pixels": 10,
+      "row_scale": 1.2972972972972974,
+      "destination_bbox": [
+        224,
+        11,
+        352,
+        200
+      ],
+      "upper_hair_donor_repair": false,
+      "warnings": []
+    },
+    {
+      "row": 0,
+      "state": "idle",
+      "column": 2,
+      "source_crop": [
+        284,
+        0,
+        426,
+        151
+      ],
+      "source_bbox_in_crop": [
+        23,
+        4,
+        121,
+        151
+      ],
+      "removed_isolated_pixels": 9,
+      "row_scale": 1.2972972972972974,
+      "destination_bbox": [
+        416,
+        9,
+        543,
+        200
+      ],
+      "upper_hair_donor_repair": false,
+      "warnings": [
+        "source_content_touches_extraction_boundary_possible_clipping"
+      ]
+    },
+    {
+      "row": 0,
+      "state": "idle",
+      "column": 3,
+      "source_crop": [
+        426,
+        0,
+        568,
+        151
+      ],
+      "source_bbox_in_crop": [
+        26,
+        6,
+        123,
+        151
+      ],
+      "removed_isolated_pixels": 8,
+      "row_scale": 1.2972972972972974,
+      "destination_bbox": [
+        609,
+        12,
+        735,
+        200
+      ],
+      "upper_hair_donor_repair": false,
+      "warnings": [
+        "source_content_touches_extraction_boundary_possible_clipping"
+      ]
+    },
+    {
+      "row": 0,
+      "state": "idle",
+      "column": 4,
+      "source_crop": [
+        568,
+        0,
+        710,
+        151
+      ],
+      "source_bbox_in_crop": [
+        26,
+        4,
+        123,
+        151
+      ],
+      "removed_isolated_pixels": 9,
+      "row_scale": 1.2972972972972974,
+      "destination_bbox": [
+        801,
+        9,
+        927,
+        200
+      ],
+      "upper_hair_donor_repair": false,
+      "warnings": [
+        "source_content_touches_extraction_boundary_possible_clipping"
+      ]
+    },
+    {
+      "row": 0,
+      "state": "idle",
+      "column": 5,
+      "source_crop": [
+        710,
+        0,
+        852,
+        151
+      ],
+      "source_bbox_in_crop": [
+        21,
+        4,
+        118,
+        151
+      ],
+      "removed_isolated_pixels": 22,
+      "row_scale": 1.2972972972972974,
+      "destination_bbox": [
+        993,
+        9,
+        1119,
+        200
+      ],
+      "upper_hair_donor_repair": false,
+      "warnings": [
+        "source_content_touches_extraction_boundary_possible_clipping"
+      ]
+    },
+    {
+      "row": 1,
+      "state": "running-right",
+      "column": 0,
+      "source_crop": [
+        0,
+        151,
+        142,
+        309
+      ],
+      "source_bbox_in_crop": [
+        16,
+        1,
+        138,
+        158
+      ],
+      "removed_isolated_pixels": 6,
+      "row_scale": 1.2151898734177216,
+      "destination_bbox": [
+        22,
+        217,
+        170,
+        408
+      ],
+      "upper_hair_donor_repair": false,
+      "warnings": [
+        "source_content_touches_extraction_boundary_possible_clipping"
+      ]
+    },
+    {
+      "row": 1,
+      "state": "running-right",
+      "column": 1,
+      "source_crop": [
+        142,
+        151,
+        284,
+        309
+      ],
+      "source_bbox_in_crop": [
+        11,
+        0,
+        132,
+        157
+      ],
+      "removed_isolated_pixels": 11,
+      "row_scale": 1.2151898734177216,
+      "destination_bbox": [
+        214,
+        217,
+        361,
+        408
+      ],
+      "upper_hair_donor_repair": false,
+      "warnings": [
+        "source_content_touches_extraction_boundary_possible_clipping"
+      ]
+    },
+    {
+      "row": 1,
+      "state": "running-right",
+      "column": 2,
+      "source_crop": [
+        284,
+        151,
+        426,
+        309
+      ],
+      "source_bbox_in_crop": [
+        12,
+        0,
+        129,
+        158
+      ],
+      "removed_isolated_pixels": 12,
+      "row_scale": 1.2151898734177216,
+      "destination_bbox": [
+        409,
+        216,
+        551,
+        408
+      ],
+      "upper_hair_donor_repair": false,
+      "warnings": [
+        "source_content_touches_extraction_boundary_possible_clipping"
+      ]
+    },
+    {
+      "row": 1,
+      "state": "running-right",
+      "column": 3,
+      "source_crop": [
+        426,
+        151,
+        568,
+        309
+      ],
+      "source_bbox_in_crop": [
+        7,
+        0,
+        124,
+        158
+      ],
+      "removed_isolated_pixels": 8,
+      "row_scale": 1.2151898734177216,
+      "destination_bbox": [
+        601,
+        216,
+        743,
+        408
+      ],
+      "upper_hair_donor_repair": false,
+      "warnings": [
+        "source_content_touches_extraction_boundary_possible_clipping"
+      ]
+    },
+    {
+      "row": 1,
+      "state": "running-right",
+      "column": 4,
+      "source_crop": [
+        568,
+        151,
+        710,
+        309
+      ],
+      "source_bbox_in_crop": [
+        8,
+        0,
+        128,
+        157
+      ],
+      "removed_isolated_pixels": 11,
+      "row_scale": 1.2151898734177216,
+      "destination_bbox": [
+        791,
+        217,
+        937,
+        408
+      ],
+      "upper_hair_donor_repair": false,
+      "warnings": [
+        "source_content_touches_extraction_boundary_possible_clipping"
+      ]
+    },
+    {
+      "row": 1,
+      "state": "running-right",
+      "column": 5,
+      "source_crop": [
+        710,
+        151,
+        852,
+        309
+      ],
+      "source_bbox_in_crop": [
+        15,
+        0,
+        128,
+        155
+      ],
+      "removed_isolated_pixels": 17,
+      "row_scale": 1.2151898734177216,
+      "destination_bbox": [
+        987,
+        220,
+        1124,
+        408
+      ],
+      "upper_hair_donor_repair": false,
+      "warnings": [
+        "source_content_touches_extraction_boundary_possible_clipping"
+      ]
+    },
+    {
+      "row": 1,
+      "state": "running-right",
+      "column": 6,
+      "source_crop": [
+        852,
+        151,
+        994,
+        309
+      ],
+      "source_bbox_in_crop": [
+        12,
+        0,
+        128,
+        154
+      ],
+      "removed_isolated_pixels": 24,
+      "row_scale": 1.2151898734177216,
+      "destination_bbox": [
+        1177,
+        221,
+        1318,
+        408
+      ],
+      "upper_hair_donor_repair": false,
+      "warnings": [
+        "source_content_touches_extraction_boundary_possible_clipping"
+      ]
+    },
+    {
+      "row": 1,
+      "state": "running-right",
+      "column": 7,
+      "source_crop": [
+        994,
+        151,
+        1136,
+        309
+      ],
+      "source_bbox_in_crop": [
+        10,
+        0,
+        127,
+        158
+      ],
+      "removed_isolated_pixels": 17,
+      "row_scale": 1.2151898734177216,
+      "destination_bbox": [
+        1369,
+        216,
+        1511,
+        408
+      ],
+      "upper_hair_donor_repair": false,
+      "warnings": [
+        "source_content_touches_extraction_boundary_possible_clipping"
+      ]
+    },
+    {
+      "row": 2,
+      "state": "running-left",
+      "column": 0,
+      "source_crop": [
+        0,
+        309,
+        142,
+        467
+      ],
+      "source_bbox_in_crop": [
+        19,
+        0,
+        134,
+        155
+      ],
+      "removed_isolated_pixels": 12,
+      "row_scale": 1.2229299363057324,
+      "destination_bbox": [
+        25,
+        426,
+        166,
+        616
+      ],
+      "upper_hair_donor_repair": false,
+      "warnings": [
+        "source_content_touches_extraction_boundary_possible_clipping"
+      ]
+    },
+    {
+      "row": 2,
+      "state": "running-left",
+      "column": 1,
+      "source_crop": [
+        142,
+        309,
+        284,
+        467
+      ],
+      "source_bbox_in_crop": [
+        14,
+        1,
+        131,
+        157
+      ],
+      "removed_isolated_pixels": 21,
+      "row_scale": 1.2229299363057324,
+      "destination_bbox": [
+        216,
+        425,
+        359,
+        616
+      ],
+      "upper_hair_donor_repair": false,
+      "warnings": []
+    },
+    {
+      "row": 2,
+      "state": "running-left",
+      "column": 2,
+      "source_crop": [
+        284,
+        309,
+        426,
+        467
+      ],
+      "source_bbox_in_crop": [
+        20,
+        1,
+        137,
+        158
+      ],
+      "removed_isolated_pixels": 16,
+      "row_scale": 1.2229299363057324,
+      "destination_bbox": [
+        408,
+        424,
+        551,
+        616
+      ],
+      "upper_hair_donor_repair": false,
+      "warnings": [
+        "source_content_touches_extraction_boundary_possible_clipping"
+      ]
+    },
+    {
+      "row": 2,
+      "state": "running-left",
+      "column": 3,
+      "source_crop": [
+        426,
+        309,
+        568,
+        467
+      ],
+      "source_bbox_in_crop": [
+        18,
+        2,
+        137,
+        153
+      ],
+      "removed_isolated_pixels": 13,
+      "row_scale": 1.2229299363057324,
+      "destination_bbox": [
+        599,
+        431,
+        745,
+        616
+      ],
+      "upper_hair_donor_repair": false,
+      "warnings": []
+    },
+    {
+      "row": 2,
+      "state": "running-left",
+      "column": 4,
+      "source_crop": [
+        568,
+        309,
+        710,
+        467
+      ],
+      "source_bbox_in_crop": [
+        20,
+        1,
+        139,
+        157
+      ],
+      "removed_isolated_pixels": 13,
+      "row_scale": 1.2229299363057324,
+      "destination_bbox": [
+        791,
+        425,
+        937,
+        616
+      ],
+      "upper_hair_donor_repair": false,
+      "warnings": []
+    },
+    {
+      "row": 2,
+      "state": "running-left",
+      "column": 5,
+      "source_crop": [
+        710,
+        309,
+        852,
+        467
+      ],
+      "source_bbox_in_crop": [
+        22,
+        2,
+        138,
+        157
+      ],
+      "removed_isolated_pixels": 17,
+      "row_scale": 1.2229299363057324,
+      "destination_bbox": [
+        985,
+        426,
+        1127,
+        616
+      ],
+      "upper_hair_donor_repair": false,
+      "warnings": []
+    },
+    {
+      "row": 2,
+      "state": "running-left",
+      "column": 6,
+      "source_crop": [
+        852,
+        309,
+        994,
+        467
+      ],
+      "source_bbox_in_crop": [
+        21,
+        1,
+        137,
+        158
+      ],
+      "removed_isolated_pixels": 23,
+      "row_scale": 1.2229299363057324,
+      "destination_bbox": [
+        1177,
+        424,
+        1319,
+        616
+      ],
+      "upper_hair_donor_repair": false,
+      "warnings": [
+        "source_content_touches_extraction_boundary_possible_clipping"
+      ]
+    },
+    {
+      "row": 2,
+      "state": "running-left",
+      "column": 7,
+      "source_crop": [
+        994,
+        309,
+        1136,
+        467
+      ],
+      "source_bbox_in_crop": [
+        20,
+        2,
+        133,
+        156
+      ],
+      "removed_isolated_pixels": 11,
+      "row_scale": 1.2229299363057324,
+      "destination_bbox": [
+        1371,
+        428,
+        1509,
+        616
+      ],
+      "upper_hair_donor_repair": false,
+      "warnings": []
+    },
+    {
+      "row": 3,
+      "state": "waving",
+      "column": 0,
+      "source_crop": [
+        0,
+        467,
+        142,
+        626
+      ],
+      "source_bbox_in_crop": [
+        22,
+        0,
+        124,
+        159
+      ],
+      "removed_isolated_pixels": 32,
+      "row_scale": 1.2075471698113207,
+      "destination_bbox": [
+        34,
+        632,
+        157,
+        824
+      ],
+      "upper_hair_donor_repair": false,
+      "warnings": [
+        "source_content_touches_extraction_boundary_possible_clipping"
+      ]
+    },
+    {
+      "row": 3,
+      "state": "waving",
+      "column": 1,
+      "source_crop": [
+        142,
+        467,
+        284,
+        626
+      ],
+      "source_bbox_in_crop": [
+        26,
+        0,
+        127,
+        159
+      ],
+      "removed_isolated_pixels": 18,
+      "row_scale": 1.2075471698113207,
+      "destination_bbox": [
+        227,
+        632,
+        349,
+        824
+      ],
+      "upper_hair_donor_repair": false,
+      "warnings": [
+        "source_content_touches_extraction_boundary_possible_clipping"
+      ]
+    },
+    {
+      "row": 3,
+      "state": "waving",
+      "column": 2,
+      "source_crop": [
+        284,
+        467,
+        426,
+        626
+      ],
+      "source_bbox_in_crop": [
+        27,
+        0,
+        130,
+        159
+      ],
+      "removed_isolated_pixels": 10,
+      "row_scale": 1.2075471698113207,
+      "destination_bbox": [
+        418,
+        632,
+        542,
+        824
+      ],
+      "upper_hair_donor_repair": false,
+      "warnings": [
+        "source_content_touches_extraction_boundary_possible_clipping"
+      ]
+    },
+    {
+      "row": 3,
+      "state": "waving",
+      "column": 3,
+      "source_crop": [
+        426,
+        467,
+        568,
+        626
+      ],
+      "source_bbox_in_crop": [
+        26,
+        0,
+        131,
+        159
+      ],
+      "removed_isolated_pixels": 22,
+      "row_scale": 1.2075471698113207,
+      "destination_bbox": [
+        608,
+        632,
+        735,
+        824
+      ],
+      "upper_hair_donor_repair": false,
+      "warnings": [
+        "source_content_touches_extraction_boundary_possible_clipping"
+      ]
+    },
+    {
+      "row": 4,
+      "state": "jumping",
+      "column": 0,
+      "source_crop": [
+        0,
+        626,
+        142,
+        787
+      ],
+      "source_bbox_in_crop": [
+        28,
+        0,
+        123,
+        161
+      ],
+      "removed_isolated_pixels": 10,
+      "row_scale": 1.1925465838509317,
+      "destination_bbox": [
+        39,
+        840,
+        152,
+        1032
+      ],
+      "upper_hair_donor_repair": false,
+      "warnings": [
+        "source_content_touches_extraction_boundary_possible_clipping"
+      ]
+    },
+    {
+      "row": 4,
+      "state": "jumping",
+      "column": 1,
+      "source_crop": [
+        142,
+        626,
+        284,
+        787
+      ],
+      "source_bbox_in_crop": [
+        24,
+        0,
+        124,
+        161
+      ],
+      "removed_isolated_pixels": 13,
+      "row_scale": 1.1925465838509317,
+      "destination_bbox": [
+        228,
+        840,
+        347,
+        1032
+      ],
+      "upper_hair_donor_repair": false,
+      "warnings": [
+        "source_content_touches_extraction_boundary_possible_clipping"
+      ]
+    },
+    {
+      "row": 4,
+      "state": "jumping",
+      "column": 2,
+      "source_crop": [
+        284,
+        626,
+        426,
+        787
+      ],
+      "source_bbox_in_crop": [
+        28,
+        0,
+        127,
+        161
+      ],
+      "removed_isolated_pixels": 13,
+      "row_scale": 1.1925465838509317,
+      "destination_bbox": [
+        421,
+        840,
+        539,
+        1032
+      ],
+      "upper_hair_donor_repair": false,
+      "warnings": [
+        "source_content_touches_extraction_boundary_possible_clipping"
+      ]
+    },
+    {
+      "row": 4,
+      "state": "jumping",
+      "column": 3,
+      "source_crop": [
+        426,
+        626,
+        568,
+        787
+      ],
+      "source_bbox_in_crop": [
+        25,
+        0,
+        119,
+        161
+      ],
+      "removed_isolated_pixels": 10,
+      "row_scale": 1.1925465838509317,
+      "destination_bbox": [
+        616,
+        840,
+        728,
+        1032
+      ],
+      "upper_hair_donor_repair": false,
+      "warnings": [
+        "source_content_touches_extraction_boundary_possible_clipping"
+      ]
+    },
+    {
+      "row": 4,
+      "state": "jumping",
+      "column": 4,
+      "source_crop": [
+        568,
+        626,
+        710,
+        787
+      ],
+      "source_bbox_in_crop": [
+        26,
+        0,
+        122,
+        161
+      ],
+      "removed_isolated_pixels": 13,
+      "row_scale": 1.1925465838509317,
+      "destination_bbox": [
+        807,
+        840,
+        921,
+        1032
+      ],
+      "upper_hair_donor_repair": false,
+      "warnings": [
+        "source_content_touches_extraction_boundary_possible_clipping"
+      ]
+    },
+    {
+      "row": 5,
+      "state": "failed",
+      "column": 0,
+      "source_crop": [
+        0,
+        787,
+        142,
+        928
+      ],
+      "source_bbox_in_crop": [
+        23,
+        0,
+        128,
+        141
+      ],
+      "removed_isolated_pixels": 3,
+      "row_scale": 1.3333333333333333,
+      "destination_bbox": [
+        26,
+        1052,
+        166,
+        1240
+      ],
+      "upper_hair_donor_repair": false,
+      "warnings": [
+        "source_content_touches_extraction_boundary_possible_clipping"
+      ]
+    },
+    {
+      "row": 5,
+      "state": "failed",
+      "column": 1,
+      "source_crop": [
+        142,
+        787,
+        284,
+        927
+      ],
+      "source_bbox_in_crop": [
+        22,
+        0,
+        129,
+        140
+      ],
+      "removed_isolated_pixels": 11,
+      "row_scale": 1.3333333333333333,
+      "destination_bbox": [
+        216,
+        1053,
+        359,
+        1240
+      ],
+      "upper_hair_donor_repair": false,
+      "warnings": [
+        "source_content_touches_extraction_boundary_possible_clipping"
+      ]
+    },
+    {
+      "row": 5,
+      "state": "failed",
+      "column": 2,
+      "source_crop": [
+        284,
+        787,
+        426,
+        927
+      ],
+      "source_bbox_in_crop": [
+        20,
+        0,
+        129,
+        140
+      ],
+      "removed_isolated_pixels": 9,
+      "row_scale": 1.3333333333333333,
+      "destination_bbox": [
+        407,
+        1053,
+        552,
+        1240
+      ],
+      "upper_hair_donor_repair": false,
+      "warnings": [
+        "source_content_touches_extraction_boundary_possible_clipping"
+      ]
+    },
+    {
+      "row": 5,
+      "state": "failed",
+      "column": 3,
+      "source_crop": [
+        426,
+        787,
+        568,
+        928
+      ],
+      "source_bbox_in_crop": [
+        17,
+        0,
+        125,
+        141
+      ],
+      "removed_isolated_pixels": 20,
+      "row_scale": 1.3333333333333333,
+      "destination_bbox": [
+        600,
+        1052,
+        744,
+        1240
+      ],
+      "upper_hair_donor_repair": false,
+      "warnings": [
+        "source_content_touches_extraction_boundary_possible_clipping"
+      ]
+    },
+    {
+      "row": 5,
+      "state": "failed",
+      "column": 4,
+      "source_crop": [
+        568,
+        787,
+        710,
+        928
+      ],
+      "source_bbox_in_crop": [
+        15,
+        0,
+        121,
+        141
+      ],
+      "removed_isolated_pixels": 6,
+      "row_scale": 1.3333333333333333,
+      "destination_bbox": [
+        793,
+        1052,
+        934,
+        1240
+      ],
+      "upper_hair_donor_repair": false,
+      "warnings": [
+        "source_content_touches_extraction_boundary_possible_clipping"
+      ]
+    },
+    {
+      "row": 5,
+      "state": "failed",
+      "column": 5,
+      "source_crop": [
+        710,
+        787,
+        852,
+        930
+      ],
+      "source_bbox_in_crop": [
+        10,
+        0,
+        123,
+        143
+      ],
+      "removed_isolated_pixels": 15,
+      "row_scale": 1.3333333333333333,
+      "destination_bbox": [
+        980,
+        1049,
+        1131,
+        1240
+      ],
+      "upper_hair_donor_repair": false,
+      "warnings": [
+        "source_content_touches_extraction_boundary_possible_clipping"
+      ]
+    },
+    {
+      "row": 5,
+      "state": "failed",
+      "column": 6,
+      "source_crop": [
+        852,
+        787,
+        994,
+        931
+      ],
+      "source_bbox_in_crop": [
+        11,
+        0,
+        122,
+        144
+      ],
+      "removed_isolated_pixels": 3,
+      "row_scale": 1.3333333333333333,
+      "destination_bbox": [
+        1174,
+        1048,
+        1322,
+        1240
+      ],
+      "upper_hair_donor_repair": false,
+      "warnings": [
+        "source_content_touches_extraction_boundary_possible_clipping"
+      ]
+    },
+    {
+      "row": 5,
+      "state": "failed",
+      "column": 7,
+      "source_crop": [
+        994,
+        787,
+        1136,
+        931
+      ],
+      "source_bbox_in_crop": [
+        13,
+        0,
+        122,
+        144
+      ],
+      "removed_isolated_pixels": 15,
+      "row_scale": 1.3333333333333333,
+      "destination_bbox": [
+        1367,
+        1048,
+        1512,
+        1240
+      ],
+      "upper_hair_donor_repair": false,
+      "warnings": [
+        "source_content_touches_extraction_boundary_possible_clipping"
+      ]
+    },
+    {
+      "row": 6,
+      "state": "waiting",
+      "column": 0,
+      "source_crop": [
+        0,
+        926,
+        142,
+        1082
+      ],
+      "source_bbox_in_crop": [
+        21,
+        0,
+        132,
+        156
+      ],
+      "removed_isolated_pixels": 16,
+      "row_scale": 1.2075471698113207,
+      "destination_bbox": [
+        29,
+        1260,
+        163,
+        1448
+      ],
+      "upper_hair_donor_repair": true,
+      "warnings": [
+        "source_content_touches_extraction_boundary_possible_clipping"
+      ]
+    },
+    {
+      "row": 6,
+      "state": "waiting",
+      "column": 1,
+      "source_crop": [
+        142,
+        923,
+        284,
+        1082
+      ],
+      "source_bbox_in_crop": [
+        18,
+        0,
+        129,
+        159
+      ],
+      "removed_isolated_pixels": 13,
+      "row_scale": 1.2075471698113207,
+      "destination_bbox": [
+        221,
+        1256,
+        355,
+        1448
+      ],
+      "upper_hair_donor_repair": true,
+      "warnings": [
+        "source_content_touches_extraction_boundary_possible_clipping"
+      ]
+    },
+    {
+      "row": 6,
+      "state": "waiting",
+      "column": 2,
+      "source_crop": [
+        284,
+        923,
+        426,
+        1082
+      ],
+      "source_bbox_in_crop": [
+        14,
+        0,
+        128,
+        159
+      ],
+      "removed_isolated_pixels": 8,
+      "row_scale": 1.2075471698113207,
+      "destination_bbox": [
+        411,
+        1256,
+        549,
+        1448
+      ],
+      "upper_hair_donor_repair": true,
+      "warnings": [
+        "source_content_touches_extraction_boundary_possible_clipping"
+      ]
+    },
+    {
+      "row": 6,
+      "state": "waiting",
+      "column": 3,
+      "source_crop": [
+        426,
+        926,
+        568,
+        1082
+      ],
+      "source_bbox_in_crop": [
+        15,
+        0,
+        127,
+        156
+      ],
+      "removed_isolated_pixels": 13,
+      "row_scale": 1.2075471698113207,
+      "destination_bbox": [
+        604,
+        1260,
+        739,
+        1448
+      ],
+      "upper_hair_donor_repair": true,
+      "warnings": [
+        "source_content_touches_extraction_boundary_possible_clipping"
+      ]
+    },
+    {
+      "row": 6,
+      "state": "waiting",
+      "column": 4,
+      "source_crop": [
+        568,
+        926,
+        710,
+        1082
+      ],
+      "source_bbox_in_crop": [
+        17,
+        0,
+        126,
+        156
+      ],
+      "removed_isolated_pixels": 6,
+      "row_scale": 1.2075471698113207,
+      "destination_bbox": [
+        798,
+        1260,
+        930,
+        1448
+      ],
+      "upper_hair_donor_repair": true,
+      "warnings": [
+        "source_content_touches_extraction_boundary_possible_clipping"
+      ]
+    },
+    {
+      "row": 6,
+      "state": "waiting",
+      "column": 5,
+      "source_crop": [
+        710,
+        926,
+        852,
+        1082
+      ],
+      "source_bbox_in_crop": [
+        20,
+        0,
+        128,
+        154
+      ],
+      "removed_isolated_pixels": 10,
+      "row_scale": 1.2075471698113207,
+      "destination_bbox": [
+        991,
+        1262,
+        1121,
+        1448
+      ],
+      "upper_hair_donor_repair": true,
+      "warnings": [
+        "source_content_touches_extraction_boundary_possible_clipping"
+      ]
+    },
+    {
+      "row": 7,
+      "state": "running",
+      "column": 0,
+      "source_crop": [
+        0,
+        1082,
+        142,
+        1229
+      ],
+      "source_bbox_in_crop": [
+        20,
+        0,
+        132,
+        147
+      ],
+      "removed_isolated_pixels": 10,
+      "row_scale": 1.2972972972972974,
+      "destination_bbox": [
+        23,
+        1465,
+        168,
+        1656
+      ],
+      "upper_hair_donor_repair": false,
+      "warnings": [
+        "source_content_touches_extraction_boundary_possible_clipping"
+      ]
+    },
+    {
+      "row": 7,
+      "state": "running",
+      "column": 1,
+      "source_crop": [
+        142,
+        1082,
+        284,
+        1230
+      ],
+      "source_bbox_in_crop": [
+        9,
+        0,
+        125,
+        148
+      ],
+      "removed_isolated_pixels": 13,
+      "row_scale": 1.2972972972972974,
+      "destination_bbox": [
+        213,
+        1464,
+        363,
+        1656
+      ],
+      "upper_hair_donor_repair": false,
+      "warnings": [
+        "source_content_touches_extraction_boundary_possible_clipping"
+      ]
+    },
+    {
+      "row": 7,
+      "state": "running",
+      "column": 2,
+      "source_crop": [
+        284,
+        1082,
+        426,
+        1230
+      ],
+      "source_bbox_in_crop": [
+        26,
+        1,
+        125,
+        148
+      ],
+      "removed_isolated_pixels": 36,
+      "row_scale": 1.2972972972972974,
+      "destination_bbox": [
+        416,
+        1465,
+        544,
+        1656
+      ],
+      "upper_hair_donor_repair": false,
+      "warnings": [
+        "source_content_touches_extraction_boundary_possible_clipping"
+      ]
+    },
+    {
+      "row": 7,
+      "state": "running",
+      "column": 3,
+      "source_crop": [
+        426,
+        1082,
+        568,
+        1228
+      ],
+      "source_bbox_in_crop": [
+        14,
+        0,
+        131,
+        146
+      ],
+      "removed_isolated_pixels": 25,
+      "row_scale": 1.2972972972972974,
+      "destination_bbox": [
+        596,
+        1467,
+        748,
+        1656
+      ],
+      "upper_hair_donor_repair": false,
+      "warnings": [
+        "source_content_touches_extraction_boundary_possible_clipping"
+      ]
+    },
+    {
+      "row": 7,
+      "state": "running",
+      "column": 4,
+      "source_crop": [
+        568,
+        1082,
+        710,
+        1229
+      ],
+      "source_bbox_in_crop": [
+        12,
+        0,
+        132,
+        147
+      ],
+      "removed_isolated_pixels": 12,
+      "row_scale": 1.2972972972972974,
+      "destination_bbox": [
+        786,
+        1465,
+        942,
+        1656
+      ],
+      "upper_hair_donor_repair": false,
+      "warnings": [
+        "source_content_touches_extraction_boundary_possible_clipping"
+      ]
+    },
+    {
+      "row": 7,
+      "state": "running",
+      "column": 5,
+      "source_crop": [
+        710,
+        1082,
+        852,
+        1230
+      ],
+      "source_bbox_in_crop": [
+        30,
+        1,
+        142,
+        148
+      ],
+      "removed_isolated_pixels": 13,
+      "row_scale": 1.2972972972972974,
+      "destination_bbox": [
+        983,
+        1465,
+        1128,
+        1656
+      ],
+      "upper_hair_donor_repair": false,
+      "warnings": [
+        "source_content_touches_extraction_boundary_possible_clipping"
+      ]
+    },
+    {
+      "row": 8,
+      "state": "review",
+      "column": 0,
+      "source_crop": [
+        0,
+        1223,
+        142,
+        1385
+      ],
+      "source_bbox_in_crop": [
+        22,
+        0,
+        125,
+        162
+      ],
+      "removed_isolated_pixels": 10,
+      "row_scale": 1.177914110429448,
+      "destination_bbox": [
+        35,
+        1673,
+        156,
+        1864
+      ],
+      "upper_hair_donor_repair": true,
+      "warnings": [
+        "source_content_touches_extraction_boundary_possible_clipping"
+      ]
+    },
+    {
+      "row": 8,
+      "state": "review",
+      "column": 1,
+      "source_crop": [
+        142,
+        1222,
+        284,
+        1385
+      ],
+      "source_bbox_in_crop": [
+        18,
+        0,
+        119,
+        163
+      ],
+      "removed_isolated_pixels": 11,
+      "row_scale": 1.177914110429448,
+      "destination_bbox": [
+        228,
+        1672,
+        347,
+        1864
+      ],
+      "upper_hair_donor_repair": true,
+      "warnings": [
+        "source_content_touches_extraction_boundary_possible_clipping"
+      ]
+    },
+    {
+      "row": 8,
+      "state": "review",
+      "column": 2,
+      "source_crop": [
+        284,
+        1222,
+        426,
+        1385
+      ],
+      "source_bbox_in_crop": [
+        17,
+        0,
+        118,
+        163
+      ],
+      "removed_isolated_pixels": 7,
+      "row_scale": 1.177914110429448,
+      "destination_bbox": [
+        420,
+        1672,
+        539,
+        1864
+      ],
+      "upper_hair_donor_repair": true,
+      "warnings": [
+        "source_content_touches_extraction_boundary_possible_clipping"
+      ]
+    },
+    {
+      "row": 8,
+      "state": "review",
+      "column": 3,
+      "source_crop": [
+        426,
+        1223,
+        568,
+        1385
+      ],
+      "source_bbox_in_crop": [
+        19,
+        0,
+        121,
+        162
+      ],
+      "removed_isolated_pixels": 9,
+      "row_scale": 1.177914110429448,
+      "destination_bbox": [
+        612,
+        1673,
+        732,
+        1864
+      ],
+      "upper_hair_donor_repair": true,
+      "warnings": [
+        "source_content_touches_extraction_boundary_possible_clipping"
+      ]
+    },
+    {
+      "row": 8,
+      "state": "review",
+      "column": 4,
+      "source_crop": [
+        568,
+        1223,
+        710,
+        1385
+      ],
+      "source_bbox_in_crop": [
+        19,
+        0,
+        121,
+        162
+      ],
+      "removed_isolated_pixels": 5,
+      "row_scale": 1.177914110429448,
+      "destination_bbox": [
+        804,
+        1673,
+        924,
+        1864
+      ],
+      "upper_hair_donor_repair": true,
+      "warnings": [
+        "source_content_touches_extraction_boundary_possible_clipping"
+      ]
+    },
+    {
+      "row": 8,
+      "state": "review",
+      "column": 5,
+      "source_crop": [
+        710,
+        1223,
+        852,
+        1385
+      ],
+      "source_bbox_in_crop": [
+        16,
+        0,
+        117,
+        162
+      ],
+      "removed_isolated_pixels": 5,
+      "row_scale": 1.177914110429448,
+      "destination_bbox": [
+        996,
+        1673,
+        1115,
+        1864
+      ],
+      "upper_hair_donor_repair": true,
+      "warnings": [
+        "source_content_touches_extraction_boundary_possible_clipping"
+      ]
+    }
+  ],
+  "limitations": [
+    "Generated animation poses are preserved; no intermediate motion was invented.",
+    "Touching or overlapping poses in the source cannot be reconstructed by cropping.",
+    "A frame touching an extraction band is flagged; inspect hair and feet manually."
+  ],
+  "validation": {
+    "encoded_size": [
+      1536,
+      1872
+    ],
+    "encoded_mode": "RGBA",
+    "size_matches": true,
+    "active_frames": 57,
+    "blank_cells": [
+      {
+        "row": 0,
+        "column": 6,
+        "completely_transparent": true
+      },
+      {
+        "row": 0,
+        "column": 7,
+        "completely_transparent": true
+      },
+      {
+        "row": 3,
+        "column": 4,
+        "completely_transparent": true
+      },
+      {
+        "row": 3,
+        "column": 5,
+        "completely_transparent": true
+      },
+      {
+        "row": 3,
+        "column": 6,
+        "completely_transparent": true
+      },
+      {
+        "row": 3,
+        "column": 7,
+        "completely_transparent": true
+      },
+      {
+        "row": 4,
+        "column": 5,
+        "completely_transparent": true
+      },
+      {
+        "row": 4,
+        "column": 6,
+        "completely_transparent": true
+      },
+      {
+        "row": 4,
+        "column": 7,
+        "completely_transparent": true
+      },
+      {
+        "row": 6,
+        "column": 6,
+        "completely_transparent": true
+      },
+      {
+        "row": 6,
+        "column": 7,
+        "completely_transparent": true
+      },
+      {
+        "row": 7,
+        "column": 6,
+        "completely_transparent": true
+      },
+      {
+        "row": 7,
+        "column": 7,
+        "completely_transparent": true
+      },
+      {
+        "row": 8,
+        "column": 6,
+        "completely_transparent": true
+      },
+      {
+        "row": 8,
+        "column": 7,
+        "completely_transparent": true
+      }
+    ],
+    "all_blank_cells_clear": true,
+    "padding_failures": [],
+    "all_active_cells_have_8px_padding": true,
+    "frames_with_source_clipping_warning": 51
+  }
+}
