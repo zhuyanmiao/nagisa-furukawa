@@ -138,137 +138,137 @@
     {
       "source": "run-right",
       "source_frame": 0,
-      "path": "artwork/v4/sources/run-right-locked-0.png",
+      "path": "artwork/v4/sources/run-left-locked-0.png",
       "source_size": [
-        768,
-        512
+        688,
+        571
       ],
       "source_crop": [
         0,
         0,
-        768,
-        512
+        688,
+        571
       ],
       "head_box_in_tile": [
-        329,
-        56,
-        623,
-        303
+        267,
+        61,
+        587,
+        310
       ],
       "anchor_in_tile": [
-        480,
-        509
+        450,
+        562
       ],
       "painted_box_in_tile": [
-        329,
-        8,
-        623,
-        509
+        272,
+        5,
+        634,
+        556
       ],
       "target_head_width": 86.0,
-      "base_scale": 0.2925170068027211,
+      "base_scale": 0.26875,
       "source_touches_crop_edge": false
     },
     {
       "source": "run-right",
       "source_frame": 1,
-      "path": "artwork/v4/sources/run-right-locked-1.png",
+      "path": "artwork/v4/sources/run-left-locked-1.png",
       "source_size": [
-        768,
-        512
+        688,
+        571
       ],
       "source_crop": [
         0,
         0,
-        768,
-        512
+        688,
+        571
       ],
       "head_box_in_tile": [
-        329,
-        56,
-        623,
-        303
+        267,
+        61,
+        587,
+        310
       ],
       "anchor_in_tile": [
-        480,
-        509
+        450,
+        562
       ],
       "painted_box_in_tile": [
-        329,
-        8,
-        623,
-        510
+        272,
+        5,
+        634,
+        565
       ],
       "target_head_width": 86.0,
-      "base_scale": 0.2925170068027211,
+      "base_scale": 0.26875,
       "source_touches_crop_edge": false
     },
     {
       "source": "run-right",
       "source_frame": 2,
-      "path": "artwork/v4/sources/run-right-locked-2.png",
+      "path": "artwork/v4/sources/run-left-locked-2.png",
       "source_size": [
-        768,
-        512
+        688,
+        571
       ],
       "source_crop": [
         0,
         0,
-        768,
-        512
+        688,
+        571
       ],
       "head_box_in_tile": [
-        329,
-        56,
-        623,
-        303
+        267,
+        61,
+        587,
+        310
       ],
       "anchor_in_tile": [
-        480,
-        509
+        450,
+        562
       ],
       "painted_box_in_tile": [
-        329,
-        8,
-        623,
-        506
+        272,
+        5,
+        634,
+        562
       ],
       "target_head_width": 86.0,
-      "base_scale": 0.2925170068027211,
+      "base_scale": 0.26875,
       "source_touches_crop_edge": false
     },
     {
       "source": "run-right",
       "source_frame": 3,
-      "path": "artwork/v4/sources/run-right-locked-3.png",
+      "path": "artwork/v4/sources/run-left-locked-3.png",
       "source_size": [
-        768,
-        512
+        688,
+        571
       ],
       "source_crop": [
         0,
         0,
-        768,
-        512
+        688,
+        571
       ],
       "head_box_in_tile": [
-        329,
-        56,
-        623,
-        303
+        267,
+        61,
+        587,
+        310
       ],
       "anchor_in_tile": [
-        480,
-        509
+        450,
+        562
       ],
       "painted_box_in_tile": [
-        329,
-        8,
-        623,
-        505
+        272,
+        5,
+        634,
+        566
       ],
       "target_head_width": 86.0,
-      "base_scale": 0.2925170068027211,
+      "base_scale": 0.26875,
       "source_touches_crop_edge": false
     },
     {
@@ -296,10 +296,10 @@
         562
       ],
       "painted_box_in_tile": [
-        267,
-        6,
-        629,
-        562
+        272,
+        5,
+        634,
+        556
       ],
       "target_head_width": 86.0,
       "base_scale": 0.26875,
@@ -330,9 +330,9 @@
         562
       ],
       "painted_box_in_tile": [
-        267,
-        6,
-        629,
+        272,
+        5,
+        634,
         565
       ],
       "target_head_width": 86.0,
@@ -364,9 +364,9 @@
         562
       ],
       "painted_box_in_tile": [
-        267,
-        6,
-        629,
+        272,
+        5,
+        634,
         562
       ],
       "target_head_width": 86.0,
@@ -398,9 +398,9 @@
         562
       ],
       "painted_box_in_tile": [
-        267,
-        6,
-        629,
+        272,
+        5,
+        634,
         566
       ],
       "target_head_width": 86.0,
@@ -712,7 +712,8 @@
       "raster_scale": [
         0.11574697173620457,
         0.11572942135289324
-      ]
+      ],
+      "mirrored_x": false
     },
     {
       "row": 0,
@@ -745,7 +746,8 @@
       "raster_scale": [
         0.11574697173620457,
         0.11572942135289324
-      ]
+      ],
+      "mirrored_x": false
     },
     {
       "row": 0,
@@ -778,7 +780,8 @@
       "raster_scale": [
         0.11574697173620457,
         0.1165444172779136
-      ]
+      ],
+      "mirrored_x": false
     },
     {
       "row": 0,
@@ -811,7 +814,8 @@
       "raster_scale": [
         0.11574697173620457,
         0.1165444172779136
-      ]
+      ],
+      "mirrored_x": false
     },
     {
       "row": 0,
@@ -844,7 +848,8 @@
       "raster_scale": [
         0.11574697173620457,
         0.11572942135289324
-      ]
+      ],
+      "mirrored_x": false
     },
     {
       "row": 0,
@@ -877,7 +882,8 @@
       "raster_scale": [
         0.11574697173620457,
         0.11572942135289324
-      ]
+      ],
+      "mirrored_x": false
     },
     {
       "row": 1,
@@ -886,16 +892,16 @@
       "source": "run-right",
       "source_frame": 0,
       "destination_bounds": [
-        52,
-        51,
-        138,
-        198
+        47,
+        48,
+        144,
+        196
       ],
       "margins": [
-        52,
-        51,
-        54,
-        10
+        47,
+        48,
+        48,
+        12
       ],
       "root": [
         96,
@@ -908,9 +914,10 @@
         "scale_y": 1
       },
       "raster_scale": [
-        0.2925170068027211,
-        0.2934131736526946
-      ]
+        0.26795580110497236,
+        0.26860254083484575
+      ],
+      "mirrored_x": true
     },
     {
       "row": 1,
@@ -919,16 +926,16 @@
       "source": "run-right",
       "source_frame": 0,
       "destination_bounds": [
-        52,
-        51,
-        138,
-        198
+        47,
+        48,
+        144,
+        196
       ],
       "margins": [
-        52,
-        51,
-        54,
-        10
+        47,
+        48,
+        48,
+        12
       ],
       "root": [
         96,
@@ -941,9 +948,10 @@
         "scale_y": 1
       },
       "raster_scale": [
-        0.2925170068027211,
-        0.2934131736526946
-      ]
+        0.26795580110497236,
+        0.26860254083484575
+      ],
+      "mirrored_x": true
     },
     {
       "row": 1,
@@ -951,402 +959,6 @@
       "frame": 2,
       "source": "run-right",
       "source_frame": 1,
-      "destination_bounds": [
-        52,
-        51,
-        138,
-        198
-      ],
-      "margins": [
-        52,
-        51,
-        54,
-        10
-      ],
-      "root": [
-        96,
-        198
-      ],
-      "transform": {
-        "dx": 0,
-        "dy": 0,
-        "scale_x": 1,
-        "scale_y": 1
-      },
-      "raster_scale": [
-        0.2925170068027211,
-        0.29282868525896416
-      ]
-    },
-    {
-      "row": 1,
-      "state": "running-right",
-      "frame": 3,
-      "source": "run-right",
-      "source_frame": 1,
-      "destination_bounds": [
-        52,
-        51,
-        138,
-        198
-      ],
-      "margins": [
-        52,
-        51,
-        54,
-        10
-      ],
-      "root": [
-        96,
-        198
-      ],
-      "transform": {
-        "dx": 0,
-        "dy": 0,
-        "scale_x": 1,
-        "scale_y": 1
-      },
-      "raster_scale": [
-        0.2925170068027211,
-        0.29282868525896416
-      ]
-    },
-    {
-      "row": 1,
-      "state": "running-right",
-      "frame": 4,
-      "source": "run-right",
-      "source_frame": 2,
-      "destination_bounds": [
-        52,
-        51,
-        138,
-        197
-      ],
-      "margins": [
-        52,
-        51,
-        54,
-        11
-      ],
-      "root": [
-        96,
-        198
-      ],
-      "transform": {
-        "dx": 0,
-        "dy": 0,
-        "scale_x": 1,
-        "scale_y": 1
-      },
-      "raster_scale": [
-        0.2925170068027211,
-        0.2931726907630522
-      ]
-    },
-    {
-      "row": 1,
-      "state": "running-right",
-      "frame": 5,
-      "source": "run-right",
-      "source_frame": 2,
-      "destination_bounds": [
-        52,
-        51,
-        138,
-        197
-      ],
-      "margins": [
-        52,
-        51,
-        54,
-        11
-      ],
-      "root": [
-        96,
-        198
-      ],
-      "transform": {
-        "dx": 0,
-        "dy": 0,
-        "scale_x": 1,
-        "scale_y": 1
-      },
-      "raster_scale": [
-        0.2925170068027211,
-        0.2931726907630522
-      ]
-    },
-    {
-      "row": 1,
-      "state": "running-right",
-      "frame": 6,
-      "source": "run-right",
-      "source_frame": 3,
-      "destination_bounds": [
-        52,
-        52,
-        138,
-        197
-      ],
-      "margins": [
-        52,
-        52,
-        54,
-        11
-      ],
-      "root": [
-        96,
-        198
-      ],
-      "transform": {
-        "dx": 0,
-        "dy": 0,
-        "scale_x": 1,
-        "scale_y": 1
-      },
-      "raster_scale": [
-        0.2925170068027211,
-        0.2917505030181087
-      ]
-    },
-    {
-      "row": 1,
-      "state": "running-right",
-      "frame": 7,
-      "source": "run-right",
-      "source_frame": 3,
-      "destination_bounds": [
-        52,
-        52,
-        138,
-        197
-      ],
-      "margins": [
-        52,
-        52,
-        54,
-        11
-      ],
-      "root": [
-        96,
-        198
-      ],
-      "transform": {
-        "dx": 0,
-        "dy": 0,
-        "scale_x": 1,
-        "scale_y": 1
-      },
-      "raster_scale": [
-        0.2925170068027211,
-        0.2917505030181087
-      ]
-    },
-    {
-      "row": 2,
-      "state": "running-left",
-      "frame": 0,
-      "source": "run-left",
-      "source_frame": 0,
-      "destination_bounds": [
-        47,
-        49,
-        144,
-        198
-      ],
-      "margins": [
-        47,
-        49,
-        48,
-        10
-      ],
-      "root": [
-        96,
-        198
-      ],
-      "transform": {
-        "dx": 0,
-        "dy": 0,
-        "scale_x": 1,
-        "scale_y": 1
-      },
-      "raster_scale": [
-        0.26795580110497236,
-        0.26798561151079137
-      ]
-    },
-    {
-      "row": 2,
-      "state": "running-left",
-      "frame": 1,
-      "source": "run-left",
-      "source_frame": 0,
-      "destination_bounds": [
-        47,
-        49,
-        144,
-        198
-      ],
-      "margins": [
-        47,
-        49,
-        48,
-        10
-      ],
-      "root": [
-        96,
-        198
-      ],
-      "transform": {
-        "dx": 0,
-        "dy": 0,
-        "scale_x": 1,
-        "scale_y": 1
-      },
-      "raster_scale": [
-        0.26795580110497236,
-        0.26798561151079137
-      ]
-    },
-    {
-      "row": 2,
-      "state": "running-left",
-      "frame": 2,
-      "source": "run-left",
-      "source_frame": 1,
-      "destination_bounds": [
-        47,
-        49,
-        144,
-        199
-      ],
-      "margins": [
-        47,
-        49,
-        48,
-        9
-      ],
-      "root": [
-        96,
-        198
-      ],
-      "transform": {
-        "dx": 0,
-        "dy": 0,
-        "scale_x": 1,
-        "scale_y": 1
-      },
-      "raster_scale": [
-        0.26795580110497236,
-        0.26833631484794274
-      ]
-    },
-    {
-      "row": 2,
-      "state": "running-left",
-      "frame": 3,
-      "source": "run-left",
-      "source_frame": 1,
-      "destination_bounds": [
-        47,
-        49,
-        144,
-        199
-      ],
-      "margins": [
-        47,
-        49,
-        48,
-        9
-      ],
-      "root": [
-        96,
-        198
-      ],
-      "transform": {
-        "dx": 0,
-        "dy": 0,
-        "scale_x": 1,
-        "scale_y": 1
-      },
-      "raster_scale": [
-        0.26795580110497236,
-        0.26833631484794274
-      ]
-    },
-    {
-      "row": 2,
-      "state": "running-left",
-      "frame": 4,
-      "source": "run-left",
-      "source_frame": 2,
-      "destination_bounds": [
-        47,
-        49,
-        144,
-        198
-      ],
-      "margins": [
-        47,
-        49,
-        48,
-        10
-      ],
-      "root": [
-        96,
-        198
-      ],
-      "transform": {
-        "dx": 0,
-        "dy": 0,
-        "scale_x": 1,
-        "scale_y": 1
-      },
-      "raster_scale": [
-        0.26795580110497236,
-        0.26798561151079137
-      ]
-    },
-    {
-      "row": 2,
-      "state": "running-left",
-      "frame": 5,
-      "source": "run-left",
-      "source_frame": 2,
-      "destination_bounds": [
-        47,
-        49,
-        144,
-        198
-      ],
-      "margins": [
-        47,
-        49,
-        48,
-        10
-      ],
-      "root": [
-        96,
-        198
-      ],
-      "transform": {
-        "dx": 0,
-        "dy": 0,
-        "scale_x": 1,
-        "scale_y": 1
-      },
-      "raster_scale": [
-        0.26795580110497236,
-        0.26798561151079137
-      ]
-    },
-    {
-      "row": 2,
-      "state": "running-left",
-      "frame": 6,
-      "source": "run-left",
-      "source_frame": 3,
       "destination_bounds": [
         47,
         49,
@@ -1372,14 +984,15 @@
       "raster_scale": [
         0.26795580110497236,
         0.26785714285714285
-      ]
+      ],
+      "mirrored_x": true
     },
     {
-      "row": 2,
-      "state": "running-left",
-      "frame": 7,
-      "source": "run-left",
-      "source_frame": 3,
+      "row": 1,
+      "state": "running-right",
+      "frame": 3,
+      "source": "run-right",
+      "source_frame": 1,
       "destination_bounds": [
         47,
         49,
@@ -1405,7 +1018,416 @@
       "raster_scale": [
         0.26795580110497236,
         0.26785714285714285
-      ]
+      ],
+      "mirrored_x": true
+    },
+    {
+      "row": 1,
+      "state": "running-right",
+      "frame": 4,
+      "source": "run-right",
+      "source_frame": 2,
+      "destination_bounds": [
+        47,
+        48,
+        144,
+        198
+      ],
+      "margins": [
+        47,
+        48,
+        48,
+        10
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 1
+      },
+      "raster_scale": [
+        0.26795580110497236,
+        0.26929982046678635
+      ],
+      "mirrored_x": true
+    },
+    {
+      "row": 1,
+      "state": "running-right",
+      "frame": 5,
+      "source": "run-right",
+      "source_frame": 2,
+      "destination_bounds": [
+        47,
+        48,
+        144,
+        198
+      ],
+      "margins": [
+        47,
+        48,
+        48,
+        10
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 1
+      },
+      "raster_scale": [
+        0.26795580110497236,
+        0.26929982046678635
+      ],
+      "mirrored_x": true
+    },
+    {
+      "row": 1,
+      "state": "running-right",
+      "frame": 6,
+      "source": "run-right",
+      "source_frame": 3,
+      "destination_bounds": [
+        47,
+        48,
+        144,
+        199
+      ],
+      "margins": [
+        47,
+        48,
+        48,
+        9
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 1
+      },
+      "raster_scale": [
+        0.26795580110497236,
+        0.26916221033868093
+      ],
+      "mirrored_x": true
+    },
+    {
+      "row": 1,
+      "state": "running-right",
+      "frame": 7,
+      "source": "run-right",
+      "source_frame": 3,
+      "destination_bounds": [
+        47,
+        48,
+        144,
+        199
+      ],
+      "margins": [
+        47,
+        48,
+        48,
+        9
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 1
+      },
+      "raster_scale": [
+        0.26795580110497236,
+        0.26916221033868093
+      ],
+      "mirrored_x": true
+    },
+    {
+      "row": 2,
+      "state": "running-left",
+      "frame": 0,
+      "source": "run-left",
+      "source_frame": 0,
+      "destination_bounds": [
+        48,
+        48,
+        145,
+        196
+      ],
+      "margins": [
+        48,
+        48,
+        47,
+        12
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 1
+      },
+      "raster_scale": [
+        0.26795580110497236,
+        0.26860254083484575
+      ],
+      "mirrored_x": false
+    },
+    {
+      "row": 2,
+      "state": "running-left",
+      "frame": 1,
+      "source": "run-left",
+      "source_frame": 0,
+      "destination_bounds": [
+        48,
+        48,
+        145,
+        196
+      ],
+      "margins": [
+        48,
+        48,
+        47,
+        12
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 1
+      },
+      "raster_scale": [
+        0.26795580110497236,
+        0.26860254083484575
+      ],
+      "mirrored_x": false
+    },
+    {
+      "row": 2,
+      "state": "running-left",
+      "frame": 2,
+      "source": "run-left",
+      "source_frame": 1,
+      "destination_bounds": [
+        48,
+        49,
+        145,
+        199
+      ],
+      "margins": [
+        48,
+        49,
+        47,
+        9
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 1
+      },
+      "raster_scale": [
+        0.26795580110497236,
+        0.26785714285714285
+      ],
+      "mirrored_x": false
+    },
+    {
+      "row": 2,
+      "state": "running-left",
+      "frame": 3,
+      "source": "run-left",
+      "source_frame": 1,
+      "destination_bounds": [
+        48,
+        49,
+        145,
+        199
+      ],
+      "margins": [
+        48,
+        49,
+        47,
+        9
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 1
+      },
+      "raster_scale": [
+        0.26795580110497236,
+        0.26785714285714285
+      ],
+      "mirrored_x": false
+    },
+    {
+      "row": 2,
+      "state": "running-left",
+      "frame": 4,
+      "source": "run-left",
+      "source_frame": 2,
+      "destination_bounds": [
+        48,
+        48,
+        145,
+        198
+      ],
+      "margins": [
+        48,
+        48,
+        47,
+        10
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 1
+      },
+      "raster_scale": [
+        0.26795580110497236,
+        0.26929982046678635
+      ],
+      "mirrored_x": false
+    },
+    {
+      "row": 2,
+      "state": "running-left",
+      "frame": 5,
+      "source": "run-left",
+      "source_frame": 2,
+      "destination_bounds": [
+        48,
+        48,
+        145,
+        198
+      ],
+      "margins": [
+        48,
+        48,
+        47,
+        10
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 1
+      },
+      "raster_scale": [
+        0.26795580110497236,
+        0.26929982046678635
+      ],
+      "mirrored_x": false
+    },
+    {
+      "row": 2,
+      "state": "running-left",
+      "frame": 6,
+      "source": "run-left",
+      "source_frame": 3,
+      "destination_bounds": [
+        48,
+        48,
+        145,
+        199
+      ],
+      "margins": [
+        48,
+        48,
+        47,
+        9
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 1
+      },
+      "raster_scale": [
+        0.26795580110497236,
+        0.26916221033868093
+      ],
+      "mirrored_x": false
+    },
+    {
+      "row": 2,
+      "state": "running-left",
+      "frame": 7,
+      "source": "run-left",
+      "source_frame": 3,
+      "destination_bounds": [
+        48,
+        48,
+        145,
+        199
+      ],
+      "margins": [
+        48,
+        48,
+        47,
+        9
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 1
+      },
+      "raster_scale": [
+        0.26795580110497236,
+        0.26916221033868093
+      ],
+      "mirrored_x": false
     },
     {
       "row": 3,
@@ -1438,7 +1460,8 @@
       "raster_scale": [
         0.12285714285714286,
         0.12275862068965518
-      ]
+      ],
+      "mirrored_x": false
     },
     {
       "row": 3,
@@ -1471,7 +1494,8 @@
       "raster_scale": [
         0.12285714285714286,
         0.12275862068965518
-      ]
+      ],
+      "mirrored_x": false
     },
     {
       "row": 3,
@@ -1504,7 +1528,8 @@
       "raster_scale": [
         0.12285714285714286,
         0.12275862068965518
-      ]
+      ],
+      "mirrored_x": false
     },
     {
       "row": 3,
@@ -1537,7 +1562,8 @@
       "raster_scale": [
         0.12285714285714286,
         0.12275862068965518
-      ]
+      ],
+      "mirrored_x": false
     },
     {
       "row": 4,
@@ -1570,7 +1596,8 @@
       "raster_scale": [
         0.11450381679389313,
         0.11147757255936676
-      ]
+      ],
+      "mirrored_x": false
     },
     {
       "row": 4,
@@ -1603,7 +1630,8 @@
       "raster_scale": [
         0.11450381679389313,
         0.11609498680738786
-      ]
+      ],
+      "mirrored_x": false
     },
     {
       "row": 4,
@@ -1636,7 +1664,8 @@
       "raster_scale": [
         0.11450381679389313,
         0.11477572559366754
-      ]
+      ],
+      "mirrored_x": false
     },
     {
       "row": 4,
@@ -1669,7 +1698,8 @@
       "raster_scale": [
         0.11450381679389313,
         0.11609498680738786
-      ]
+      ],
+      "mirrored_x": false
     },
     {
       "row": 4,
@@ -1702,7 +1732,8 @@
       "raster_scale": [
         0.11450381679389313,
         0.11147757255936676
-      ]
+      ],
+      "mirrored_x": false
     },
     {
       "row": 5,
@@ -1735,7 +1766,8 @@
       "raster_scale": [
         0.11300919842312747,
         0.11264367816091954
-      ]
+      ],
+      "mirrored_x": false
     },
     {
       "row": 5,
@@ -1768,7 +1800,8 @@
       "raster_scale": [
         0.11300919842312747,
         0.11340996168582375
-      ]
+      ],
+      "mirrored_x": false
     },
     {
       "row": 5,
@@ -1801,7 +1834,8 @@
       "raster_scale": [
         0.11300919842312747,
         0.11340996168582375
-      ]
+      ],
+      "mirrored_x": false
     },
     {
       "row": 5,
@@ -1834,7 +1868,8 @@
       "raster_scale": [
         0.11300919842312747,
         0.11340996168582375
-      ]
+      ],
+      "mirrored_x": false
     },
     {
       "row": 5,
@@ -1867,7 +1902,8 @@
       "raster_scale": [
         0.11300919842312747,
         0.11340996168582375
-      ]
+      ],
+      "mirrored_x": false
     },
     {
       "row": 5,
@@ -1900,7 +1936,8 @@
       "raster_scale": [
         0.11300919842312747,
         0.11340996168582375
-      ]
+      ],
+      "mirrored_x": false
     },
     {
       "row": 5,
@@ -1933,7 +1970,8 @@
       "raster_scale": [
         0.11300919842312747,
         0.11340996168582375
-      ]
+      ],
+      "mirrored_x": false
     },
     {
       "row": 5,
@@ -1966,7 +2004,8 @@
       "raster_scale": [
         0.11300919842312747,
         0.11264367816091954
-      ]
+      ],
+      "mirrored_x": false
     },
     {
       "row": 6,
@@ -1999,7 +2038,8 @@
       "raster_scale": [
         0.0984251968503937,
         0.09815078236130868
-      ]
+      ],
+      "mirrored_x": false
     },
     {
       "row": 6,
@@ -2032,7 +2072,8 @@
       "raster_scale": [
         0.0984251968503937,
         0.09815078236130868
-      ]
+      ],
+      "mirrored_x": false
     },
     {
       "row": 6,
@@ -2065,7 +2106,8 @@
       "raster_scale": [
         0.0984251968503937,
         0.09886201991465149
-      ]
+      ],
+      "mirrored_x": false
     },
     {
       "row": 6,
@@ -2098,7 +2140,8 @@
       "raster_scale": [
         0.0984251968503937,
         0.09886201991465149
-      ]
+      ],
+      "mirrored_x": false
     },
     {
       "row": 6,
@@ -2131,7 +2174,8 @@
       "raster_scale": [
         0.0984251968503937,
         0.09815078236130868
-      ]
+      ],
+      "mirrored_x": false
     },
     {
       "row": 6,
@@ -2164,7 +2208,8 @@
       "raster_scale": [
         0.0984251968503937,
         0.09815078236130868
-      ]
+      ],
+      "mirrored_x": false
     },
     {
       "row": 7,
@@ -2173,16 +2218,16 @@
       "source": "run-right",
       "source_frame": 0,
       "destination_bounds": [
-        52,
-        51,
-        138,
-        198
+        47,
+        48,
+        144,
+        196
       ],
       "margins": [
-        52,
-        51,
-        54,
-        10
+        47,
+        48,
+        48,
+        12
       ],
       "root": [
         96,
@@ -2195,9 +2240,10 @@
         "scale_y": 1
       },
       "raster_scale": [
-        0.2925170068027211,
-        0.2934131736526946
-      ]
+        0.26795580110497236,
+        0.26860254083484575
+      ],
+      "mirrored_x": true
     },
     {
       "row": 7,
@@ -2206,16 +2252,16 @@
       "source": "run-right",
       "source_frame": 0,
       "destination_bounds": [
-        52,
-        51,
-        138,
-        198
+        47,
+        48,
+        144,
+        196
       ],
       "margins": [
-        52,
-        51,
-        54,
-        10
+        47,
+        48,
+        48,
+        12
       ],
       "root": [
         96,
@@ -2228,9 +2274,10 @@
         "scale_y": 1
       },
       "raster_scale": [
-        0.2925170068027211,
-        0.2934131736526946
-      ]
+        0.26795580110497236,
+        0.26860254083484575
+      ],
+      "mirrored_x": true
     },
     {
       "row": 7,
@@ -2239,15 +2286,49 @@
       "source": "run-right",
       "source_frame": 1,
       "destination_bounds": [
-        52,
-        51,
-        138,
+        47,
+        49,
+        144,
+        199
+      ],
+      "margins": [
+        47,
+        49,
+        48,
+        9
+      ],
+      "root": [
+        96,
+        198
+      ],
+      "transform": {
+        "dx": 0,
+        "dy": 0,
+        "scale_x": 1,
+        "scale_y": 1
+      },
+      "raster_scale": [
+        0.26795580110497236,
+        0.26785714285714285
+      ],
+      "mirrored_x": true
+    },
+    {
+      "row": 7,
+      "state": "running",
+      "frame": 3,
+      "source": "run-right",
+      "source_frame": 2,
+      "destination_bounds": [
+        47,
+        48,
+        144,
         198
       ],
       "margins": [
-        52,
-        51,
-        54,
+        47,
+        48,
+        48,
         10
       ],
       "root": [
@@ -2261,42 +2342,10 @@
         "scale_y": 1
       },
       "raster_scale": [
-        0.2925170068027211,
-        0.29282868525896416
-      ]
-    },
-    {
-      "row": 7,
-      "state": "running",
-      "frame": 3,
-      "source": "run-right",
-      "source_frame": 2,
-      "destination_bounds": [
-        52,
-        51,
-        138,
-        197
+        0.26795580110497236,
+        0.26929982046678635
       ],
-      "margins": [
-        52,
-        51,
-        54,
-        11
-      ],
-      "root": [
-        96,
-        198
-      ],
-      "transform": {
-        "dx": 0,
-        "dy": 0,
-        "scale_x": 1,
-        "scale_y": 1
-      },
-      "raster_scale": [
-        0.2925170068027211,
-        0.2931726907630522
-      ]
+      "mirrored_x": true
     },
     {
       "row": 7,
@@ -2305,16 +2354,16 @@
       "source": "run-right",
       "source_frame": 2,
       "destination_bounds": [
-        52,
-        51,
-        138,
-        197
+        47,
+        48,
+        144,
+        198
       ],
       "margins": [
-        52,
-        51,
-        54,
-        11
+        47,
+        48,
+        48,
+        10
       ],
       "root": [
         96,
@@ -2327,9 +2376,10 @@
         "scale_y": 1
       },
       "raster_scale": [
-        0.2925170068027211,
-        0.2931726907630522
-      ]
+        0.26795580110497236,
+        0.26929982046678635
+      ],
+      "mirrored_x": true
     },
     {
       "row": 7,
@@ -2338,16 +2388,16 @@
       "source": "run-right",
       "source_frame": 3,
       "destination_bounds": [
-        52,
-        52,
-        138,
-        197
+        47,
+        48,
+        144,
+        199
       ],
       "margins": [
-        52,
-        52,
-        54,
-        11
+        47,
+        48,
+        48,
+        9
       ],
       "root": [
         96,
@@ -2360,9 +2410,10 @@
         "scale_y": 1
       },
       "raster_scale": [
-        0.2925170068027211,
-        0.2917505030181087
-      ]
+        0.26795580110497236,
+        0.26916221033868093
+      ],
+      "mirrored_x": true
     },
     {
       "row": 8,
@@ -2395,7 +2446,8 @@
       "raster_scale": [
         0.10386473429951691,
         0.10384300899427637
-      ]
+      ],
+      "mirrored_x": false
     },
     {
       "row": 8,
@@ -2428,7 +2480,8 @@
       "raster_scale": [
         0.10386473429951691,
         0.10384300899427637
-      ]
+      ],
+      "mirrored_x": false
     },
     {
       "row": 8,
@@ -2461,7 +2514,8 @@
       "raster_scale": [
         0.10386473429951691,
         0.10384300899427637
-      ]
+      ],
+      "mirrored_x": false
     },
     {
       "row": 8,
@@ -2494,7 +2548,8 @@
       "raster_scale": [
         0.10386473429951691,
         0.10384300899427637
-      ]
+      ],
+      "mirrored_x": false
     },
     {
       "row": 8,
@@ -2527,7 +2582,8 @@
       "raster_scale": [
         0.10386473429951691,
         0.10384300899427637
-      ]
+      ],
+      "mirrored_x": false
     },
     {
       "row": 8,
@@ -2560,7 +2616,8 @@
       "raster_scale": [
         0.10386473429951691,
         0.10384300899427637
-      ]
+      ],
+      "mirrored_x": false
     }
   ],
   "wave_local_composite": {
@@ -2630,34 +2687,6 @@
   },
   "run_lower_body_composites": [
     {
-      "source": "run-right",
-      "frame": 0,
-      "output": "artwork/v4/sources/run-right-locked-0.png",
-      "upper_body_rows_locked": 350,
-      "method": "Original head, torso and bag; generated lower pose aligned at manually registered pelvis."
-    },
-    {
-      "source": "run-right",
-      "frame": 1,
-      "output": "artwork/v4/sources/run-right-locked-1.png",
-      "upper_body_rows_locked": 350,
-      "method": "Original head, torso and bag; generated lower pose aligned at manually registered pelvis."
-    },
-    {
-      "source": "run-right",
-      "frame": 2,
-      "output": "artwork/v4/sources/run-right-locked-2.png",
-      "upper_body_rows_locked": 350,
-      "method": "Original head, torso and bag; generated lower pose aligned at manually registered pelvis."
-    },
-    {
-      "source": "run-right",
-      "frame": 3,
-      "output": "artwork/v4/sources/run-right-locked-3.png",
-      "upper_body_rows_locked": 350,
-      "method": "Original head, torso and bag; generated lower pose aligned at manually registered pelvis."
-    },
-    {
       "source": "run-left",
       "frame": 0,
       "output": "artwork/v4/sources/run-left-locked-0.png",
@@ -2689,10 +2718,10 @@
   "art_review": {
     "status": "A_style_and_user_pose_visual_review_passed_pending_runtime_QA",
     "hard_blockers": [],
-    "running_expression_requirement": "User explicitly requested original-style >< effort squint and closed determined mouth in all left/right/generic running states, preserving restrained small steps. Open focused eyes are not acceptable for running.",
+    "running_expression_requirement": "Latest feedback supersedes rigid >< symbols: natural soft effort squint, relaxed gently raised brows and tiny breathing mouth. Avoid angry brow compression, heavy chevron strokes and theatrical clenched/wavy mouth. Both directions must share the same edited facial pixels.",
     "waiting_pose_requirement": "A-style seated chibi with vertical-line dazed cute eyes, both hands stretching pink dango to small mouth; green/blue/orange dango stack behind. This explicit user reference overrides prior waiting acting plan.",
     "jump_pose_requirement": "A-style Nagisa seated on a large dango mount that lifts/bounces her; not standing holding a small dango. Restrained 14px levitation arc; consistent head width, no ahoge clipping or jump-only face shrink.",
-    "running_review": "Both final source sheets use > < effort squint and small closed determined mouth; arms and bag remain close. All three run rows share this explicit user override.",
+    "running_review": "Latest correction uses one complete naturally softened running master, sources/run-master-natural.png. Its head/torso/bag are locked across the four original small-step lower-body poses. Both directions reuse exactly the same frames, mirrored at final cell resolution. Earlier independent-source style and rigid-expression approvals are revoked; subjective acceptance remains with the user.",
     "production_pending": [],
     "limitations": [
       "Single-pose idle/failed/waiting/review use restrained whole-group breathing rather than independent facial/skeletal animation.",

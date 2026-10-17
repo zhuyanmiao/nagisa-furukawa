@@ -360,6 +360,9 @@ def build(config, root):
         overrides = spec.get("transforms", [{} for _ in mapping])
         if len(overrides) != len(mapping):
             raise ValueError(name + " transforms count must match its frame count")
+        mirror_x = spec.get("mirror_x", False)
+        if not isinstance(mirror_x, bool):
+            raise ValueError(name + " mirror_x must be a boolean")
         for frame, source_index in enumerate(mapping):
             source_name = SOURCE_FOR_STATE[row]
             if not 0 <= source_index < len(sources[source_name]):
@@ -373,6 +376,17 @@ def build(config, root):
                 raise ValueError(name + " scale must be positive")
             prepared = sources[source_name][source_index]
             cell, details = render_frame(prepared, root_point, transform, cutoff, name + "/" + str(frame))
+            if mirror_x:
+                # Reuse one registered drawing for both movement directions.
+                # Mirror the final cell to avoid a second resampling or a
+                # one-pixel registration difference between directions.
+                cell = cell.transpose(Image.Transpose.FLIP_LEFT_RIGHT)
+                left, top, right, bottom = details["destination_bounds"]
+                details["destination_bounds"] = [CELL_W - right, top, CELL_W - left, bottom]
+                margins = details["margins"]
+                details["margins"] = [margins[2], margins[1], margins[0], margins[3]]
+                details["root"] = [CELL_W - root_point[0], root_point[1]]
+            details["mirrored_x"] = mirror_x
             atlas.alpha_composite(cell, (frame * CELL_W, row * CELL_H))
             records.append({"row": row, "state": name, "frame": frame,
                             "source": source_name, "source_frame": source_index, **details})

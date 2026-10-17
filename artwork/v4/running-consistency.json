@@ -1,0 +1,18 @@
+{
+  "master": "sources/run-master-natural.png",
+  "right_matches_horizontal_mirror_of_left_frames": 8,
+  "all_8_frame_pairs_match": true,
+  "unchanged_other_state_rows": [
+    "idle",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "review"
+  ],
+  "method": "Mirror at final cell resolution after one shared source registration",
+  "tradeoff": "Uniform badge, hair and bag are mirrored with the complete sprite.",
+  "original_gait_source": "sources/small-run-left.png",
+  "expression_generation": "sources/run-expression-natural.png",
+  "expression_note": "Natural soft closed eyelids, relaxed brows and tiny breathing mouth replace hard chevrons, pressed-down brows and the pursed wavy mouth. Complete new head is used, with no face-patch seam."
+}

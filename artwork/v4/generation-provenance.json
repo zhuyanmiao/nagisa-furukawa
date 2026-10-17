@@ -11,7 +11,8 @@
     "Restrained small-step running, low knee lift, close-held schoolbag",
     "Original first version's tightly squeezed >< effort expression, tired but persevering, for all running states",
     "Waiting pose inspired by user-supplied 1792242942591.jpg: vertical line eyes, elastic pink dango at mouth, green/blue/orange dango stack",
-    "Jump rides on a big pink dango that carries her lightly upward"
+    "Jump rides on a big pink dango that carries her lightly upward",
+    "Latest: previous rigid effort expression was forced; relax brows, soften squint strokes and use a tiny natural breathing mouth while retaining tired but earnest running."
   ],
   "reference_handling": "External reference images provide action/identity guidance only. Backgrounds, text and signatures are excluded from generated assets.",
   "postprocessing": "User-authorized Python/Pillow transparent-edge cleanup, manually registered head scale and roots, body-locked local motion and lossless WebP atlas packaging",
@@ -39,14 +40,15 @@
       "generation_id": "exec-f1b6c595-f1b5-4b21-b2b7-7f5682bb2c1a"
     },
     "run-right": {
-      "source": "sources/small-run-right.png",
-      "prompt": "prompts/run-effort-right.txt",
-      "generation_id": "exec-900e639c-1221-4a78-a434-b8f092448c07"
+      "source": "sources/run-master-natural.png",
+      "derived_from": "run-left",
+      "method": "Exact horizontal mirror of registered left-run key poses after final cell rendering; no independent generation."
     },
     "run-left": {
       "source": "sources/small-run-left.png",
       "prompt": "prompts/run-effort-left.txt",
-      "generation_id": "exec-bc34b925-8009-4ad5-8ecb-b451ef18088a"
+      "generation_id": "exec-bc34b925-8009-4ad5-8ecb-b451ef18088a",
+      "registered_master": "sources/run-master-natural.png"
     },
     "wave-in": {
       "source": "sources/wave-in.png",
@@ -73,7 +75,23 @@
       "source": "sources/jump.png",
       "prompt": "prompts/jump-dango-mount.txt",
       "generation_id": "exec-71426a23-e745-460c-a6fe-edc62e4313e9"
+    },
+    "run-expression": {
+      "source": "sources/run-expression-natural.png",
+      "prompt": "prompts/run-expression-natural.txt",
+      "generation_id": "exec-7de2ad6d-d903-4196-ae4c-b2ab22894d82",
+      "method": "Complete edited drawing normalized to the registered 688x571 master canvas. The new full head, torso and bag are locked across original lower-body key poses; no face-only patch, avoiding hair/skin seams.",
+      "registered_master": "sources/run-master-natural.png"
     }
   },
-  "prompt_history_note": "Earlier prompts are retained for traceability; selected_outputs identifies prompts used for the final source files. Discarded intermediate images are not required to rebuild."
+  "prompt_history_note": "Earlier prompts are retained for traceability; selected_outputs identifies prompts used for the final source files. Discarded intermediate images are not required to rebuild.",
+  "superseded_outputs": {
+    "run-right": {
+      "source": "sources/small-run-right.png",
+      "prompt": "prompts/run-effort-right.txt",
+      "generation_id": "exec-900e639c-1221-4a78-a434-b8f092448c07",
+      "reason": "User identified different face, hair rendering and proportions from left run; no longer consumed by build."
+    }
+  },
+  "direction_consistency": "Left, right and generic running share one illustrated master; right and generic are horizontal mirrors. This also mirrors asymmetrical uniform details and the bag side."
 }
