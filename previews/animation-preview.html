@@ -28,22 +28,23 @@
   .ok { color: #356c47; }
   .missing { color: #a64336; }
   .footer { font-size: 13px; color: #75665e; }
-  @media(max-width: 650px) { .panels { grid-template-columns: 1fr; } .stage { min-height: 300px; } }
+  @media(max-width: 650px) { .panels { grid-template-columns: 1fr; } .stage { min-height: 248px; } article:nth-child(2) { order: -1; } }
 </style>
 <h1>古河渚 · 动画对照预览</h1>
-<p class="intro">原版与新版候选使用相同动作和帧号同步播放。新版尚未验证，预览不代表已满足安装规格。</p>
+<p class="intro">V4 采用已选 A「精致但柔软的 Q 版」，按同一动作和帧号与原版比较，也可切换 V2。格式检查和美术审阅分别记录，实际 Codex 播放节奏仍需确认。<a href="style-comparison.html">查看画风选择</a></p>
 <div class="controls">
   <label>动作 <select id="state"></select></label>
+  <label>版本 <select id="version"><option value="v4" selected>精致柔软 Q 版 A · V4</option><option value="soft">软萌团子 · V2</option></select></label>
   <button id="toggle" type="button">暂停</button>
   <button id="step" type="button">下一帧</button>
   <label>速度 <input id="speed" type="range" min="1" max="16" value="6"><output id="speedValue">6 帧/秒</output></label>
-  <label>缩放 <select id="scale"><option value="1">1×</option><option value="1.5">1.5×</option><option value="2" selected>2×</option><option value="3">3×</option></select></label>
+  <label>缩放 <select id="scale"><option value="1" selected>1× 实际帧尺寸</option><option value="1.5">1.5×</option><option value="2">2×</option><option value="3">3×</option></select></label>
   <label>背景 <select id="background"><option value="checker">透明棋盘</option><option value="dark">深色</option><option value="white">白色</option></select></label>
   <span id="frame" aria-live="off"></span>
 </div>
 <section class="panels checker" id="panels">
   <article><h2>原版</h2><div class="stage"><canvas id="old" aria-label="原版当前动画帧"></canvas></div><p class="meta" id="oldMeta">正在加载原图…</p></article>
-  <article><h2>新版候选 <span class="badge">未验证</span></h2><div class="stage"><canvas id="candidate" aria-label="新版候选当前动画帧"></canvas></div><p class="meta" id="candidateMeta">正在加载候选图…</p></article>
+  <article><h2><span id="candidateTitle">精致柔软 Q 版 A · V4</span> <span class="badge" id="candidateBadge">已选 A 画风</span></h2><div class="stage"><canvas id="candidate" aria-label="所选版本当前动画帧"></canvas></div><p class="meta" id="candidateMeta">正在加载图集…</p></article>
 </section>
 <p class="footer">固定按 8 列 × 9 行读取；每格尺寸取实际图像宽 ÷ 8、高 ÷ 9。要求的正式图集尺寸为 1536 × 1872，每格 192 × 208。本页仅绘制预览，不修改、不导出图片。速度用于人工审阅，并非 Codex 运行时速度。</p>
 <script>
@@ -51,7 +52,7 @@
   'use strict';
   const states = [
     ['idle', '待机', 6], ['running-right', '向右跑', 8], ['running-left', '向左跑', 8],
-    ['waving', '挥手', 4], ['jumping', '跳跃', 5], ['failed', '失落', 8],
+    ['waving', '挥手', 4], ['jumping', '轻跳·团子托起', 5], ['failed', '失落', 8],
     ['waiting', '等待', 6], ['running', '跑动', 6], ['review', '审阅', 6]
   ];
   const byId = id => document.getElementById(id);
@@ -65,7 +66,7 @@
   let frame = 0, playing = true, lastTime = performance.now();
   const assets = [
     { id: 'old', src: '../nagisa-furukawa/spritesheet.webp' },
-    { id: 'candidate', src: '../nagisa-furukawa-soft/spritesheet.webp' }
+    { id: 'candidate', src: '../nagisa-furukawa-v4/spritesheet.webp' }
   ];
   function draw() {
     const row = Number(stateSelect.value);
@@ -88,10 +89,12 @@
       context.drawImage(asset.image, frame * cw, row * ch, cw, ch, 0, 0, canvas.width, canvas.height);
     });
   }
-  assets.forEach(asset => {
+  function loadAsset(asset) {
     const image = new Image();
+    asset.ready = false;
     asset.image = image;
     image.onload = () => {
+      if (asset.image !== image) return;
       asset.ready = true;
       const w = image.naturalWidth, h = image.naturalHeight;
       const valid = w === 1536 && h === 1872;
@@ -104,11 +107,26 @@
       draw();
     };
     image.onerror = () => {
+      if (asset.image !== image) return;
       const meta = byId(`${asset.id}Meta`);
       meta.classList.add('missing');
-      meta.textContent = asset.id === 'candidate' ? '候选图尚未生成或无法加载。请先运行 scripts/build_atlas.py 并放置新版图集。' : `无法加载：${asset.src}`;
+      meta.textContent = `无法加载图集：${asset.src}。请确认所选版本目录内含 spritesheet.webp。`;
     };
     image.src = asset.src;
+  }
+  assets.forEach(loadAsset);
+  byId('version').addEventListener('change', event => {
+    const isV4 = event.target.value === 'v4';
+    const candidate = assets.find(asset => asset.id === 'candidate');
+    candidate.src = isV4 ? '../nagisa-furukawa-v4/spritesheet.webp' : '../nagisa-furukawa-soft/spritesheet.webp';
+    byId('candidateTitle').textContent = isV4 ? '精致柔软 Q 版 A · V4' : '软萌团子 · V2';
+    byId('candidateBadge').textContent = isV4 ? '已选 A 画风' : '保留版本';
+    byId('candidateMeta').textContent = '正在加载图集…';
+    byId('candidateMeta').classList.remove('missing');
+    frame = 0;
+    lastTime = performance.now();
+    loadAsset(candidate);
+    draw();
   });
   stateSelect.addEventListener('change', () => { frame = 0; lastTime = performance.now(); draw(); });
   byId('scale').addEventListener('change', draw);

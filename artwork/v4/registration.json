@@ -1,0 +1,1137 @@
+{
+  "version_label": "V4 / selected soft chibi A",
+  "output_dir": "nagisa-furukawa-v4",
+  "report_dir": "artwork/v4",
+  "derived_source_dir": "artwork/v4/sources",
+  "approved_style": "User selected A: refined soft Q/chibi style. Do not fall back to V3 proportions or old pixels.",
+  "target_head_width": 86,
+  "alpha_cutoff": 8,
+  "sources": {
+    "idle": {
+      "path": "artwork/v4/sources/idle.png",
+      "layout": [
+        1,
+        1
+      ],
+      "frames": [
+        {
+          "head_box_pixels": [
+            0,
+            146,
+            743,
+            757
+          ],
+          "anchor_pixels": [
+            384,
+            1227
+          ]
+        }
+      ],
+      "registration_status": "measured_final_A_source"
+    },
+    "failed": {
+      "path": "artwork/v4/sources/failed.png",
+      "layout": [
+        1,
+        1
+      ],
+      "frames": [
+        {
+          "head_box_pixels": [
+            241,
+            155,
+            1002,
+            792
+          ],
+          "anchor_pixels": [
+            650,
+            1310
+          ]
+        }
+      ],
+      "registration_status": "measured_final_A_source"
+    },
+    "waiting": {
+      "path": "artwork/v4/sources/waiting.png",
+      "layout": [
+        1,
+        1
+      ],
+      "frames": [
+        {
+          "head_box_pixels": [
+            183,
+            194,
+            1058,
+            894
+          ],
+          "anchor_pixels": [
+            650,
+            1426
+          ]
+        }
+      ],
+      "registration_status": "measured_final_A_user_vertical_eyes_stretched_dango_stack_ahoge_tip_repaired"
+    },
+    "review": {
+      "path": "artwork/v4/sources/review.png",
+      "layout": [
+        1,
+        1
+      ],
+      "frames": [
+        {
+          "head_box_pixels": [
+            239,
+            146,
+            1067,
+            802
+          ],
+          "anchor_pixels": [
+            650,
+            1229
+          ]
+        }
+      ],
+      "registration_status": "measured_final_A_source"
+    },
+    "jump": {
+      "path": "artwork/v4/sources/jump.png",
+      "layout": [
+        1,
+        1
+      ],
+      "frames": [
+        {
+          "head_box_pixels": [
+            143,
+            147,
+            893,
+            752
+          ],
+          "anchor_pixels": [
+            512,
+            1524
+          ]
+        }
+      ],
+      "registration_status": "measured_final_A_dango_mount_source"
+    },
+    "run-right": {
+      "path": "artwork/v4/sources/run-right-locked-0.png",
+      "layout": [
+        1,
+        1
+      ],
+      "frames": [
+        {
+          "path": "artwork/v4/sources/run-right-locked-0.png",
+          "crop_pixels": [
+            0,
+            0,
+            768,
+            512
+          ],
+          "head_box_pixels": [
+            329,
+            56,
+            623,
+            303
+          ],
+          "anchor_pixels": [
+            480,
+            509
+          ]
+        },
+        {
+          "path": "artwork/v4/sources/run-right-locked-1.png",
+          "crop_pixels": [
+            0,
+            0,
+            768,
+            512
+          ],
+          "head_box_pixels": [
+            329,
+            56,
+            623,
+            303
+          ],
+          "anchor_pixels": [
+            480,
+            509
+          ]
+        },
+        {
+          "path": "artwork/v4/sources/run-right-locked-2.png",
+          "crop_pixels": [
+            0,
+            0,
+            768,
+            512
+          ],
+          "head_box_pixels": [
+            329,
+            56,
+            623,
+            303
+          ],
+          "anchor_pixels": [
+            480,
+            509
+          ]
+        },
+        {
+          "path": "artwork/v4/sources/run-right-locked-3.png",
+          "crop_pixels": [
+            0,
+            0,
+            768,
+            512
+          ],
+          "head_box_pixels": [
+            329,
+            56,
+            623,
+            303
+          ],
+          "anchor_pixels": [
+            480,
+            509
+          ]
+        }
+      ],
+      "registration_status": "measured_final_A_effort_squint_small_steps_face_torso_bag_locked",
+      "head_box_note": "Rounded head mass measured; left excludes long wind-blown rear hair tail for comparable face scale."
+    },
+    "run-left": {
+      "path": "artwork/v4/sources/run-left-locked-0.png",
+      "layout": [
+        1,
+        1
+      ],
+      "frames": [
+        {
+          "path": "artwork/v4/sources/run-left-locked-0.png",
+          "crop_pixels": [
+            0,
+            0,
+            688,
+            571
+          ],
+          "head_box_pixels": [
+            267,
+            61,
+            587,
+            310
+          ],
+          "anchor_pixels": [
+            450,
+            562
+          ]
+        },
+        {
+          "path": "artwork/v4/sources/run-left-locked-1.png",
+          "crop_pixels": [
+            0,
+            0,
+            688,
+            571
+          ],
+          "head_box_pixels": [
+            267,
+            61,
+            587,
+            310
+          ],
+          "anchor_pixels": [
+            450,
+            562
+          ]
+        },
+        {
+          "path": "artwork/v4/sources/run-left-locked-2.png",
+          "crop_pixels": [
+            0,
+            0,
+            688,
+            571
+          ],
+          "head_box_pixels": [
+            267,
+            61,
+            587,
+            310
+          ],
+          "anchor_pixels": [
+            450,
+            562
+          ]
+        },
+        {
+          "path": "artwork/v4/sources/run-left-locked-3.png",
+          "crop_pixels": [
+            0,
+            0,
+            688,
+            571
+          ],
+          "head_box_pixels": [
+            267,
+            61,
+            587,
+            310
+          ],
+          "anchor_pixels": [
+            450,
+            562
+          ]
+        }
+      ],
+      "registration_status": "measured_final_A_effort_squint_small_steps_face_torso_bag_locked",
+      "head_box_note": "Rounded head mass measured; left excludes long wind-blown rear hair tail for comparable face scale."
+    },
+    "wave": {
+      "path": "artwork/v4/sources/wave-locked-in.png",
+      "layout": [
+        1,
+        1
+      ],
+      "frames": [
+        {
+          "path": "artwork/v4/sources/wave-locked-in.png",
+          "crop_pixels": [
+            0,
+            0,
+            1067,
+            1474
+          ],
+          "head_box_pixels": [
+            214,
+            144,
+            914,
+            734
+          ],
+          "anchor_pixels": [
+            580,
+            1459
+          ]
+        },
+        {
+          "path": "artwork/v4/sources/wave-locked-out.png",
+          "crop_pixels": [
+            0,
+            0,
+            1067,
+            1474
+          ],
+          "head_box_pixels": [
+            214,
+            144,
+            914,
+            734
+          ],
+          "anchor_pixels": [
+            580,
+            1459
+          ]
+        },
+        {
+          "path": "artwork/v4/sources/wave-locked-out.png",
+          "crop_pixels": [
+            0,
+            0,
+            1067,
+            1474
+          ],
+          "head_box_pixels": [
+            214,
+            144,
+            914,
+            734
+          ],
+          "anchor_pixels": [
+            580,
+            1459
+          ]
+        },
+        {
+          "path": "artwork/v4/sources/wave-locked-in.png",
+          "crop_pixels": [
+            0,
+            0,
+            1067,
+            1474
+          ],
+          "head_box_pixels": [
+            214,
+            144,
+            914,
+            734
+          ],
+          "anchor_pixels": [
+            580,
+            1459
+          ]
+        }
+      ],
+      "registration_status": "measured_A_two_hand_poses_local_composite"
+    }
+  },
+  "states": {
+    "idle": {
+      "root": [
+        96,
+        198
+      ],
+      "frame_map": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "running-right": {
+      "root": [
+        96,
+        198
+      ],
+      "frame_map": [
+        0,
+        0,
+        1,
+        1,
+        2,
+        2,
+        3,
+        3
+      ]
+    },
+    "running-left": {
+      "root": [
+        96,
+        198
+      ],
+      "frame_map": [
+        0,
+        0,
+        1,
+        1,
+        2,
+        2,
+        3,
+        3
+      ]
+    },
+    "waving": {
+      "root": [
+        96,
+        198
+      ],
+      "frame_map": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "jumping": {
+      "root": [
+        96,
+        198
+      ],
+      "frame_map": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "transforms": [
+        {
+          "dy": 0,
+          "scale_y": 0.97
+        },
+        {
+          "dy": -6,
+          "scale_y": 1.01
+        },
+        {
+          "dy": -14,
+          "scale_y": 1
+        },
+        {
+          "dy": -6,
+          "scale_y": 1.01
+        },
+        {
+          "dy": 0,
+          "scale_y": 0.97
+        }
+      ]
+    },
+    "failed": {
+      "root": [
+        96,
+        198
+      ],
+      "frame_map": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "waiting": {
+      "root": [
+        96,
+        198
+      ],
+      "frame_map": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "running": {
+      "root": [
+        96,
+        198
+      ],
+      "frame_map": [
+        0,
+        0,
+        1,
+        2,
+        2,
+        3
+      ]
+    },
+    "review": {
+      "root": [
+        96,
+        198
+      ],
+      "frame_map": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "run_composites": {
+    "run-right": {
+      "base": "artwork/v4/sources/small-run-right.png",
+      "base_crop_pixels": [
+        0,
+        0,
+        768,
+        512
+      ],
+      "base_head_width": 294,
+      "pelvis_pixels": [
+        480,
+        356
+      ],
+      "blend_rows": [
+        350,
+        366
+      ],
+      "bag_lock_rectangle": [
+        336,
+        321,
+        439,
+        431
+      ],
+      "frames": [
+        {
+          "path": "artwork/v4/sources/small-run-right.png",
+          "crop_pixels": [
+            0,
+            0,
+            768,
+            512
+          ],
+          "head_width": 294,
+          "pelvis_pixels": [
+            480,
+            356
+          ]
+        },
+        {
+          "path": "artwork/v4/sources/small-run-right.png",
+          "crop_pixels": [
+            768,
+            0,
+            1536,
+            512
+          ],
+          "head_width": 294,
+          "pelvis_pixels": [
+            289,
+            356
+          ]
+        },
+        {
+          "path": "artwork/v4/sources/small-run-right.png",
+          "crop_pixels": [
+            0,
+            512,
+            768,
+            1024
+          ],
+          "head_width": 294,
+          "pelvis_pixels": [
+            480,
+            355
+          ]
+        },
+        {
+          "path": "artwork/v4/sources/small-run-right.png",
+          "crop_pixels": [
+            768,
+            512,
+            1536,
+            1024
+          ],
+          "head_width": 294,
+          "pelvis_pixels": [
+            289,
+            356
+          ]
+        }
+      ]
+    },
+    "run-left": {
+      "base": "artwork/v4/sources/small-run-left.png",
+      "base_crop_pixels": [
+        0,
+        0,
+        688,
+        571
+      ],
+      "base_head_width": 320,
+      "pelvis_pixels": [
+        450,
+        414
+      ],
+      "blend_rows": [
+        408,
+        424
+      ],
+      "bag_lock_rectangle": [
+        501,
+        384,
+        615,
+        499
+      ],
+      "frames": [
+        {
+          "path": "artwork/v4/sources/small-run-left.png",
+          "crop_pixels": [
+            0,
+            0,
+            688,
+            571
+          ],
+          "head_width": 320,
+          "pelvis_pixels": [
+            450,
+            414
+          ]
+        },
+        {
+          "path": "artwork/v4/sources/small-run-left.png",
+          "crop_pixels": [
+            688,
+            0,
+            1377,
+            571
+          ],
+          "head_width": 320,
+          "pelvis_pixels": [
+            362,
+            414
+          ]
+        },
+        {
+          "path": "artwork/v4/sources/small-run-left.png",
+          "crop_pixels": [
+            0,
+            571,
+            688,
+            1142
+          ],
+          "head_width": 322,
+          "pelvis_pixels": [
+            450,
+            411
+          ]
+        },
+        {
+          "path": "artwork/v4/sources/small-run-left.png",
+          "crop_pixels": [
+            688,
+            571,
+            1377,
+            1142
+          ],
+          "head_width": 323,
+          "pelvis_pixels": [
+            361,
+            413
+          ]
+        }
+      ]
+    }
+  },
+  "wave_composite": {
+    "base": "artwork/v4/sources/wave-in.png",
+    "out": "artwork/v4/sources/wave-out.png",
+    "edited_offset": [
+      0,
+      0
+    ],
+    "hand_cuff_polygon_pixels": [
+      [
+        264,
+        600
+      ],
+      [
+        391,
+        600
+      ],
+      [
+        410,
+        614
+      ],
+      [
+        445,
+        624
+      ],
+      [
+        490,
+        641
+      ],
+      [
+        523,
+        667
+      ],
+      [
+        555,
+        817
+      ],
+      [
+        523,
+        919
+      ],
+      [
+        446,
+        921
+      ],
+      [
+        358,
+        843
+      ],
+      [
+        328,
+        782
+      ],
+      [
+        272,
+        733
+      ]
+    ]
+  },
+  "art_review": {
+    "status": "A_style_and_user_pose_visual_review_passed_pending_runtime_QA",
+    "hard_blockers": [],
+    "running_expression_requirement": "User explicitly requested original-style >< effort squint and closed determined mouth in all left/right/generic running states, preserving restrained small steps. Open focused eyes are not acceptable for running.",
+    "waiting_pose_requirement": "A-style seated chibi with vertical-line dazed cute eyes, both hands stretching pink dango to small mouth; green/blue/orange dango stack behind. This explicit user reference overrides prior waiting acting plan.",
+    "jump_pose_requirement": "A-style Nagisa seated on a large dango mount that lifts/bounces her; not standing holding a small dango. Restrained 14px levitation arc; consistent head width, no ahoge clipping or jump-only face shrink.",
+    "running_review": "Both final source sheets use > < effort squint and small closed determined mouth; arms and bag remain close. All three run rows share this explicit user override.",
+    "production_pending": [],
+    "limitations": [
+      "Single-pose idle/failed/waiting/review use restrained whole-group breathing rather than independent facial/skeletal animation.",
+      "Small-step running uses four registered generated key images with some similar silhouettes; not advertised as an anatomically exact four-phase gait.",
+      "Wave uses two actual hand poses held across four frames, locally composited while preserving facial features and body outside the reviewed region.",
+      "Dango-mount jump moves the complete group together over a 14px arc with mild vertical compression; no separate limb or mount articulation."
+    ]
+  },
+  "static_registration_checks": {
+    "idle": {
+      "source_size": [
+        743,
+        1227
+      ],
+      "head_width_target": 86,
+      "source_painted_bbox": [
+        0,
+        0,
+        743,
+        1227
+      ],
+      "all_frame_bounds": [
+        [
+          52,
+          56,
+          138,
+          198
+        ],
+        [
+          52,
+          56,
+          138,
+          198
+        ],
+        [
+          52,
+          55,
+          138,
+          198
+        ],
+        [
+          52,
+          55,
+          138,
+          198
+        ],
+        [
+          52,
+          56,
+          138,
+          198
+        ],
+        [
+          52,
+          56,
+          138,
+          198
+        ]
+      ],
+      "all_8px_margins_pass": true
+    },
+    "failed": {
+      "source_size": [
+        1190,
+        1322
+      ],
+      "head_width_target": 86,
+      "source_painted_bbox": [
+        241,
+        5,
+        1002,
+        1310
+      ],
+      "all_frame_bounds": [
+        [
+          50,
+          51,
+          136,
+          198
+        ],
+        [
+          50,
+          50,
+          136,
+          198
+        ],
+        [
+          50,
+          50,
+          136,
+          198
+        ],
+        [
+          50,
+          50,
+          136,
+          198
+        ],
+        [
+          50,
+          50,
+          136,
+          198
+        ],
+        [
+          50,
+          50,
+          136,
+          198
+        ],
+        [
+          50,
+          50,
+          136,
+          198
+        ],
+        [
+          50,
+          51,
+          136,
+          198
+        ]
+      ],
+      "all_8px_margins_pass": true
+    },
+    "review": {
+      "source_size": [
+        1237,
+        1271
+      ],
+      "head_width_target": 86,
+      "source_painted_bbox": [
+        239,
+        6,
+        1067,
+        1229
+      ],
+      "all_frame_bounds": [
+        [
+          53,
+          71,
+          139,
+          198
+        ],
+        [
+          53,
+          71,
+          139,
+          198
+        ],
+        [
+          53,
+          71,
+          139,
+          198
+        ],
+        [
+          53,
+          71,
+          139,
+          198
+        ],
+        [
+          53,
+          71,
+          139,
+          198
+        ],
+        [
+          53,
+          71,
+          139,
+          198
+        ]
+      ],
+      "all_8px_margins_pass": true
+    },
+    "jump": {
+      "source_size": [
+        1024,
+        1536
+      ],
+      "head_width_target": 86,
+      "source_painted_bbox": [
+        139,
+        8,
+        925,
+        1524
+      ],
+      "all_frame_bounds": [
+        [
+          53,
+          29,
+          143,
+          198
+        ],
+        [
+          53,
+          16,
+          143,
+          192
+        ],
+        [
+          53,
+          10,
+          143,
+          184
+        ],
+        [
+          53,
+          16,
+          143,
+          192
+        ],
+        [
+          53,
+          29,
+          143,
+          198
+        ]
+      ],
+      "all_8px_margins_pass": true,
+      "dango_mount": "Nagisa and large pink dango move as one silhouette, 14px restrained flight arc."
+    },
+    "waiting": {
+      "source_size": [
+        1103,
+        1426
+      ],
+      "head_width_target": 86,
+      "source_painted_bbox": [
+        42,
+        20,
+        1058,
+        1426
+      ],
+      "all_frame_bounds": [
+        [
+          36,
+          60,
+          136,
+          198
+        ],
+        [
+          36,
+          60,
+          136,
+          198
+        ],
+        [
+          36,
+          59,
+          136,
+          198
+        ],
+        [
+          36,
+          59,
+          136,
+          198
+        ],
+        [
+          36,
+          60,
+          136,
+          198
+        ],
+        [
+          36,
+          60,
+          136,
+          198
+        ]
+      ],
+      "all_8px_margins_pass": true,
+      "source_tip_transparent_top_margin": 20
+    }
+  },
+  "run_wave_registration_checks": {
+    "run-right": {
+      "all_keyframe_8px_margins_pass": true,
+      "keyframe_bounds": [
+        [
+          52,
+          51,
+          138,
+          198
+        ],
+        [
+          52,
+          51,
+          138,
+          198
+        ],
+        [
+          52,
+          51,
+          138,
+          197
+        ],
+        [
+          52,
+          52,
+          138,
+          197
+        ]
+      ]
+    },
+    "run-left": {
+      "all_keyframe_8px_margins_pass": true,
+      "keyframe_bounds": [
+        [
+          47,
+          49,
+          144,
+          198
+        ],
+        [
+          47,
+          49,
+          144,
+          199
+        ],
+        [
+          47,
+          49,
+          144,
+          198
+        ],
+        [
+          47,
+          49,
+          144,
+          199
+        ]
+      ]
+    },
+    "wave": {
+      "all_keyframe_8px_margins_pass": true,
+      "keyframe_bounds": [
+        [
+          51,
+          20,
+          137,
+          198
+        ],
+        [
+          51,
+          20,
+          137,
+          198
+        ],
+        [
+          51,
+          20,
+          137,
+          198
+        ],
+        [
+          51,
+          20,
+          137,
+          198
+        ]
+      ]
+    }
+  },
+  "wave_composite_check": {
+    "outside_polygon_changes": 0,
+    "changed_pixels": 59404,
+    "note": "Polygon includes vacated hand background just below ear; eyes, nose, mouth and main face remain outside it."
+  }
+}

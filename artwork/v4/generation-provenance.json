@@ -1,0 +1,79 @@
+{
+  "date": "2026-10-17",
+  "tool": "built-in image_gen.imagegen",
+  "resolved_model": null,
+  "model_note": "The built-in tool does not expose model selection or a model receipt. User explicitly accepted this after the current quality-oriented API option was explained.",
+  "approved_style": "A: refined but soft cute Q version",
+  "approved_master": "sources/idle.png",
+  "master_origin": "User-selected A from the prior comparison; the complete selected master is preserved locally as sources/idle.png.",
+  "prompts": "prompts/",
+  "user_overrides": [
+    "Restrained small-step running, low knee lift, close-held schoolbag",
+    "Original first version's tightly squeezed >< effort expression, tired but persevering, for all running states",
+    "Waiting pose inspired by user-supplied 1792242942591.jpg: vertical line eyes, elastic pink dango at mouth, green/blue/orange dango stack",
+    "Jump rides on a big pink dango that carries her lightly upward"
+  ],
+  "reference_handling": "External reference images provide action/identity guidance only. Backgrounds, text and signatures are excluded from generated assets.",
+  "postprocessing": "User-authorized Python/Pillow transparent-edge cleanup, manually registered head scale and roots, body-locked local motion and lossless WebP atlas packaging",
+  "atlas_frame_counts": [
+    6,
+    8,
+    8,
+    4,
+    5,
+    8,
+    6,
+    6,
+    6
+  ],
+  "selected_outputs": {
+    "idle": "sources/idle.png",
+    "failed": {
+      "source": "sources/failed.png",
+      "prompt": "prompts/failed.txt",
+      "generation_id": "exec-8e6c9e85-9641-41eb-bd47-ca1719312787"
+    },
+    "review": {
+      "source": "sources/review.png",
+      "prompt": "prompts/review.txt",
+      "generation_id": "exec-f1b6c595-f1b5-4b21-b2b7-7f5682bb2c1a"
+    },
+    "run-right": {
+      "source": "sources/small-run-right.png",
+      "prompt": "prompts/run-effort-right.txt",
+      "generation_id": "exec-900e639c-1221-4a78-a434-b8f092448c07"
+    },
+    "run-left": {
+      "source": "sources/small-run-left.png",
+      "prompt": "prompts/run-effort-left.txt",
+      "generation_id": "exec-bc34b925-8009-4ad5-8ecb-b451ef18088a"
+    },
+    "wave-in": {
+      "source": "sources/wave-in.png",
+      "prompt": "prompts/wave-in.txt",
+      "generation_id": "exec-c49454de-c7d7-4071-8cb2-9b5de9fd946a"
+    },
+    "wave-out": {
+      "source": "sources/wave-out.png",
+      "prompt": "prompts/wave-out.txt",
+      "generation_id": "exec-ff5ce2de-df9b-4821-90ef-03d851063460"
+    },
+    "waiting": {
+      "source": "sources/waiting.png",
+      "prompts": [
+        "prompts/waiting-user-clarified.txt",
+        "prompts/waiting-tip-padding.txt"
+      ],
+      "generation_ids": [
+        "exec-669de414-6751-482a-b500-23c10b4298a1",
+        "exec-03315700-9beb-4181-ad53-a3276897c248"
+      ]
+    },
+    "jump": {
+      "source": "sources/jump.png",
+      "prompt": "prompts/jump-dango-mount.txt",
+      "generation_id": "exec-71426a23-e745-460c-a6fe-edc62e4313e9"
+    }
+  },
+  "prompt_history_note": "Earlier prompts are retained for traceability; selected_outputs identifies prompts used for the final source files. Discarded intermediate images are not required to rebuild."
+}

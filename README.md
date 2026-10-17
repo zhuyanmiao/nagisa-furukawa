@@ -1,65 +1,77 @@
-# 古河渚 Codex 宠物
+# 古河渚 Codex 桌宠
 
-这个仓库提供一套可直接安装的 Codex Desktop 自定义宠物资源，角色为《CLANNAD》里的古河渚。
+V4 采用用户选中的 **A「精致但柔软的 Q 版」**，统一 9 组动作的圆润脸型、暖栗棕高光、柔软染色与校服细节。原版与 V2 仍可使用，分别保留在独立目录中。
 
-## 统一画风候选版
+![V4 动作总览](nagisa-furukawa-v4/contact-sheet.png)
 
-新增 `nagisa-furukawa-soft/`，融合柔和 Q 版、古河渚角色特征与圆润团子感，统一全部 9 组动作的五官、栗棕发色、校服和暖棕描边。原版 `nagisa-furukawa/` 保留。
+## V4 的动作与画风
 
-![统一画风动作总览](nagisa-furukawa-soft/contact-sheet.png)
+左右跑和泛跑动都使用 `><` 努力眯眼、低抬膝小步和贴身书包，表现累了仍认真坚持。挥手只轻轻活动手腕及前臂，避免脸与身体随之跳变。
 
-新版仍需在 Codex Desktop 实际尺寸下审阅动作观感，尤其跑步循环、跳跃和状态切换。静态生成图经过透明边缘清理、分格和尺寸规范化；这不能代替对动画流畅度的人工确认。
+等待采用用户指定的竖线眼坐姿：双手把软糯粉团子轻拉到嘴边，身后保留绿、蓝、橙色团子堆。轻跳是骑坐大粉团子，由团子轻轻托起、浮起再落下。失落与专注各自保留相应的眉眼、嘴型和视线。团子托飞、电脑等是本项目的桌宠改编。
 
-安装时将 `nagisa-furukawa-soft` 整个目录复制到 `~/.codex/pets/`（Windows 对应 `%USERPROFILE%\.codex\pets\`），选择 `custom:nagisa-furukawa-soft`。
+[画风 A/B 对照](previews/style-comparison.html)中已标明 A 为所选方向。[动画对照页](previews/animation-preview.html)默认显示 V4，可切换 V2，与原版同步比较；支持动作选择、逐帧、速度、背景及缩放，默认 1× 实际帧尺寸。
 
-用浏览器打开 [新旧动画对照页](previews/animation-preview.html)，可以切换动作、播放或逐帧检查，并调整背景、速度和缩放。也可以在仓库根目录执行 `python3 -m http.server 8765 --bind 127.0.0.1` 后打开 `http://127.0.0.1:8765/previews/animation-preview.html`。
+图集为 1536×1872 像素，8 列×9 行，单帧 192×208 像素；有效帧数依次为 6、8、8、4、5、8、6、6、6，共 57 帧，其余 15 格留空。格式检查与美术审阅分别记录；实际 Codex 播放节奏仍需在桌面运行时确认，不能用格式检查代替动作观感判断。
 
-制作说明见 [画风规范](artwork/STYLE.md)。原始生成候选为 `artwork/spritesheet-v2.png`，提示词保存在 `artwork/prompt.txt`；图像由内置 ImageGen 生成。获用户明确同意后，使用 Python/Pillow 进行图集后处理，脚本为 `scripts/build_atlas.py`，技术检查结果为 `artwork/validation.json`。
+57 帧包含关键姿势的停留帧：跑步使用四个步态，挥手使用两个局部手姿；静坐状态采用轻微呼吸，团子轻浮采用同一坐乘姿势的整体位移和轻压缩。[团子轻浮动画](previews/dango-jump-v4.webp)与[九组动作简览](previews/v4-overview.png)可直接查看实际打包效果。
 
-复现打包需要 Python 3.9+ 和 Pillow 10.1+（`python3 -m pip install 'Pillow>=10.1'`）：
+## 安装
+
+将所选版本的整个文件夹复制到宠物目录，然后在 Codex Desktop 中选择对应宠物：
+
+| 版本 | 文件夹 | 选择值 |
+| --- | --- | --- |
+| 当前 V4 · 精致柔软 Q 版 A | `nagisa-furukawa-v4` | `custom:nagisa-furukawa-v4` |
+| V2 · 软萌团子 | `nagisa-furukawa-soft` | `custom:nagisa-furukawa-soft` |
+| 原版 | `nagisa-furukawa` | `custom:nagisa-furukawa` |
+
+macOS 常见目录为 `~/.codex/pets/`；Windows 为 `%USERPROFILE%\.codex\pets\`。例如 V4 应具有以下结构：
+
+```text
+~/.codex/pets/nagisa-furukawa-v4/
+  pet.json
+  spritesheet.webp
+  contact-sheet.png
+```
+
+每个版本的 `pet.json` 指向同目录的 `spritesheet.webp`。安装不会要求删除原版或 V2，也不会自动切换当前宠物。
+
+## 预览与制作记录
+
+可以直接用浏览器打开 `previews/animation-preview.html`，也可以在仓库根目录启动本地预览：
+
+```sh
+python3 -m http.server 8765 --bind 127.0.0.1
+```
+
+然后打开 `http://127.0.0.1:8765/previews/animation-preview.html`。
+
+V4 的源图、选择与验收依据：
+
+- [用户选择与动作要求](artwork/v4/selection.md)
+- [角色、表情方向与官方资料](artwork/v4/character-direction.md)
+- [逐项美术审阅](artwork/v4/art-review.md)
+- [生成提示词](artwork/v4/prompts/)与[生成来源记录](artwork/v4/generation-provenance.json)
+- [配准与动作配置](artwork/v4/registration.json)及[图集验证结果](artwork/v4/validation.json)
+
+图像使用内置 ImageGen 生成。工具不提供底层型号选择或可核验的型号回执；用户已接受这一限制，本项目不标称具体生图型号。图集整理与验证使用获用户明确同意的 Python/Pillow。
+
+## 复现构建
+
+需要 Python 3.9+、Pillow 10.1+：
+
+```sh
+python3 -m pip install 'Pillow>=10.1'
+python3 scripts/build_v3_atlas.py --config artwork/v4/registration.json
+```
+
+脚本按 V4 配置读取 `artwork/v4/sources/`，输出至 `nagisa-furukawa-v4/`。头部标尺、根节点和关键帧映射由配置明确登记；不会按每帧轮廓重新居中、强行底部对齐或静默裁去越界部分。输出检查保存在 `artwork/v4/validation.json`。
+
+V2 的制作说明保留在 [早期画风规范](artwork/STYLE.md)，原始候选和提示词为 `artwork/spritesheet-v2.png`、`artwork/prompt.txt`。重建 V2：
 
 ```sh
 python3 scripts/build_atlas.py
 cp artwork/spritesheet-v2-packed.webp nagisa-furukawa-soft/spritesheet.webp
 cp artwork/contact-sheet-v2.png nagisa-furukawa-soft/contact-sheet.png
 ```
-
-![古河渚动作总览](nagisa-furukawa/contact-sheet.png)
-
-## 仓库内容
-
-`nagisa-furukawa/` 目录中包含：
-
-- `pet.json`：宠物清单文件
-- `spritesheet.webp`：宠物动画图集
-- `contact-sheet.png`：动作预览图
-
-## 安装方法
-
-把整个 `nagisa-furukawa` 文件夹复制到你本机的 Codex 宠物目录里。
-
-Windows 常见位置：
-
-```text
-C:\Users\你的用户名\.codex\pets\
-```
-
-复制完成后，目录结构应当是：
-
-```text
-C:\Users\你的用户名\.codex\pets\
-  nagisa-furukawa\
-    pet.json
-    spritesheet.webp
-```
-
-然后在 Codex Desktop 里选择这只宠物。
-
-- 自定义宠物目录名是 `nagisa-furukawa`
-- 选择值应为 `custom:nagisa-furukawa`
-
-如果你看到的是别的自定义宠物，通常说明目录名不对，或者没有选中 `custom:nagisa-furukawa`。
-
-## 说明
-
-这个仓库保存的是已经整理好的可安装版本，适合直接下载、复制和使用。
