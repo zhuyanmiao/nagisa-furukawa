@@ -52,7 +52,7 @@
       "registration_status": "measured_final_A_source"
     },
     "waiting": {
-      "path": "artwork/v4/sources/waiting.png",
+      "path": "artwork/v4/sources/waiting-warm.png",
       "layout": [
         1,
         1
@@ -71,7 +71,7 @@
           ]
         }
       ],
-      "registration_status": "measured_final_A_user_vertical_eyes_stretched_dango_stack_ahoge_tip_repaired"
+      "registration_status": "Same pose registration; native color edit warms facial peach midtones and blush without changing vertical-eye/mouth/dango acting."
     },
     "review": {
       "path": "artwork/v4/sources/review.png",

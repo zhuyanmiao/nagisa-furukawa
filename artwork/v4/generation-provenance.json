@@ -12,7 +12,8 @@
     "Original first version's tightly squeezed >< effort expression, tired but persevering, for all running states",
     "Waiting pose inspired by user-supplied 1792242942591.jpg: vertical line eyes, elastic pink dango at mouth, green/blue/orange dango stack",
     "Jump rides on a big pink dango that carries her lightly upward",
-    "Latest: previous rigid effort expression was forced; relax brows, soften squint strokes and use a tiny natural breathing mouth while retaining tired but earnest running."
+    "Latest: previous rigid effort expression was forced; relax brows, soften squint strokes and use a tiny natural breathing mouth while retaining tired but earnest running.",
+    "Waiting face looked too white: warm the face/ear to a peach cream skin tone with gentle rose-peach cheeks, preserving the existing vertical eyes and dango interaction."
   ],
   "reference_handling": "External reference images provide action/identity guidance only. Backgrounds, text and signatures are excluded from generated assets.",
   "postprocessing": "User-authorized Python/Pillow transparent-edge cleanup, manually registered head scale and roots, body-locked local motion and lossless WebP atlas packaging",
@@ -61,15 +62,18 @@
       "generation_id": "exec-ff5ce2de-df9b-4821-90ef-03d851063460"
     },
     "waiting": {
-      "source": "sources/waiting.png",
+      "source": "sources/waiting-warm.png",
       "prompts": [
         "prompts/waiting-user-clarified.txt",
-        "prompts/waiting-tip-padding.txt"
+        "prompts/waiting-tip-padding.txt",
+        "prompts/waiting-warm-skin.txt"
       ],
       "generation_ids": [
         "exec-669de414-6751-482a-b500-23c10b4298a1",
-        "exec-03315700-9beb-4181-ad53-a3276897c248"
-      ]
+        "exec-03315700-9beb-4181-ad53-a3276897c248",
+        "exec-1781c859-4e40-4e1a-82b3-4d621322b13e"
+      ],
+      "previous_source": "sources/waiting.png"
     },
     "jump": {
       "source": "sources/jump.png",
