@@ -4,6 +4,8 @@ V4 采用用户选中的 **A「精致但柔软的 Q 版」**，统一 9 组动�
 
 ![V4 动作总览](nagisa-furukawa-v4/contact-sheet.png)
 
+[九组动作同屏循环预览](previews/all-actions-v4.webp) · [静态九宫格](previews/all-actions-v4.png)
+
 ## V4 的动作与画风
 
 左右跑和泛跑动共用一套角色与步态母版，使用柔和眯眼、放松眉形和轻轻呼气的小嘴，表现有点累但仍认真小跑。取消此前生硬的粗 `><` 符号眼、压眉和波浪抿嘴。保持低抬膝小步和贴身书包。挥手只轻轻活动手腕及前臂，避免脸与身体随之跳变。右跑及泛跑动由左跑在最终帧格内水平镜像，脸型、头发和着色逐帧一致；徽章与书包也随完整角色镜像换边。[左右跑同步预览](previews/running-unified-v4.webp)与[一致性检查](artwork/v4/running-consistency.json)可查看。
@@ -64,6 +66,7 @@ V4 的源图、选择与验收依据：
 ```sh
 python3 -m pip install 'Pillow>=10.1'
 python3 scripts/build_v3_atlas.py --config artwork/v4/registration.json
+python3 scripts/preview_all_actions.py
 ```
 
 脚本按 V4 配置读取 `artwork/v4/sources/`，输出至 `nagisa-furukawa-v4/`。头部标尺、根节点和关键帧映射由配置明确登记；不会按每帧轮廓重新居中、强行底部对齐或静默裁去越界部分。输出检查保存在 `artwork/v4/validation.json`。
